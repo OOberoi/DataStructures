@@ -1,2 +1,2 @@
 # DataStructures
-A library of data structures that I have written over tiime
+A library of data structures that I have developed over time!
