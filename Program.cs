@@ -13,6 +13,7 @@ namespace InterviewQuestions
     class Program
     {
         //will start using it more frequently!!!
+        //this is pretty cool stuff. Just pulled the files from git on my surface
         static void Main(string[] args)
         {
             //Reference Type
