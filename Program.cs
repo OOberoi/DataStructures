@@ -18,7 +18,7 @@ namespace InterviewQuestions
         {
             //Reference Type
             Pupil std1 = new Pupil();
-            std1.Name = "Obi";
+            std1.Name = "Obi Oberoi";
 
             ChangeRefType(std1);
             Console.WriteLine(std1.Name);
