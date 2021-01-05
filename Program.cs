@@ -13,11 +13,12 @@ namespace InterviewQuestions
     class Program
     {
         //will start using it more frequently!!!
+        //this is pretty cool stuff. Just pulled the files from git on my surface
         static void Main(string[] args)
         {
             //Reference Type
             Pupil std1 = new Pupil();
-            std1.Name = "Obi";
+            std1.Name = "Obi Oberoi";
 
             ChangeRefType(std1);
             Console.WriteLine(std1.Name);
