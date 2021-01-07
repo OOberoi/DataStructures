@@ -16,6 +16,16 @@ namespace InterviewQuestions
         //this is pretty cool stuff. Just pulled the files from git on my surface
         static void Main(string[] args)
         {
+            //Linq Class
+            var myList = Linq.GetUserNames();
+
+            foreach (var item in myList)
+            {
+                Console.WriteLine(item);
+            }
+            Console.ReadLine();
+            // Ends here ///
+
             //Reference Type
             Pupil std1 = new Pupil();
             std1.Name = "Obi Oberoi";
@@ -77,7 +87,7 @@ namespace InterviewQuestions
             //Console.ReadLine();
 
             //Unpaired number
-            //int[] pairsArr = new int[] {9,3,9,3,5,7,9 }; //or
+            //int[] pairsArr = new int[] {9,3,9,3,5,7,9 }; //orfff
             //int retVal = Codility.FindUpaired(pairsArr);
             //int retVal = Codility.FindUpairedLINQ(pairsArr);
             //Console.WriteLine(retVal);
