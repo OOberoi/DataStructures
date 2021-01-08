@@ -13,5 +13,15 @@ namespace Arrays
             var query = users.Where(u => users.Contains("Obi")).ToList();
             return query;
         }
+
+        public static IEnumerable<int> GetNumbers()
+        {
+            var numbers = new int[] { 9, 1, 5, 8, 6, 7, 3, 2, 0, 4 };
+
+            var query = from number in numbers
+                        orderby number ascending
+                        select number;
+            return query;
+        }
     }
 }
