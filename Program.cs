@@ -26,6 +26,15 @@ namespace InterviewQuestions
             Console.ReadLine();
             // Ends here ///
 
+            // Linq Class - GetNumbers()
+            var myNumList = Linq.GetNumbers();
+
+            foreach (var item in myNumList)
+            {
+                Console.WriteLine(item);
+            }
+            Console.ReadLine();
+
             //Reference Type
             Pupil std1 = new Pupil();
             std1.Name = "Obi Oberoi";
