@@ -56,7 +56,8 @@ namespace InterviewQuestions
                 new Students() { StudentID = 4, StudentName = "Ram Vilas" , Age = 20  },
                 new Students() { StudentID = 5, StudentName = "Ron Kramer" , Age = 21 },
                 new Students() { StudentID = 6, StudentName = "Obi Oberoi" , Age = 41 },
-                new Students() { StudentID = 7, StudentName= "Arya Oberoi", Age = 13}
+                new Students() { StudentID = 7, StudentName= "Arya Oberoi", Age = 13},
+                new Students() { StudentID = 8, StudentName = "Gerard Webster", Age = 51 }
             };
 
             var students = studentList.Select(s => new { id = s.StudentID, name = s.StudentName });
