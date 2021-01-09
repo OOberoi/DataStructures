@@ -60,12 +60,12 @@ namespace InterviewQuestions
                 new Students() { StudentID = 8, StudentName = "Gerard Webster", Age = 51 }
             };
 
-            var students = studentList.Select(s => new { id = s.StudentID, name = s.StudentName });
+            var students = studentList.Select(s => new { id = s.StudentID, name = s.StudentName, s.Age });
             //Console.WriteLine(students.GetType().ToString());
 
             foreach (var item in students)
             {
-                Console.WriteLine(item.id + "-" + item.name);
+                Console.WriteLine(item.id + "-" + item.name + "-" + item.Age);
 
             }
             Console.ReadLine();
