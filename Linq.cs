@@ -9,7 +9,7 @@ namespace Arrays
     {
         public static IList<string> GetUserNames()
         {
-            var users = new string[] { "Obi", "Sunita", "Sia", "Arya" };
+            var users = new string[] { "Obi", "Sunita", "Sia", "Arya", "Krishan", "Kamlesh" };
             var query = users.Where(u => users.Contains("Obi")).ToList();
             return query;
         }
