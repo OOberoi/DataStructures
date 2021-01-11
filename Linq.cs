@@ -9,9 +9,15 @@ namespace Arrays
     {
         public static IList<string> GetUserNames()
         {
-            var users = new string[] { "Obi", "Sunita", "Sia", "Arya", "Krishan", "Kamlesh" };
-            var query = users.Where(u => users.Contains("Obi")).ToList();
-            return query;
+            var users = new string[] {"Obi", "Sunita", "Sia", "Arya", "Krishan", "Kamlesh"};            
+            return users;
+        }
+
+        public static string GetUserName()
+        {
+            var users = new string[] {"Obi", "Sunita", "Sia", "Arya", "Krishan", "Kamlesh"};
+            string retVal = users.Where(u => u.Contains("Obi")).FirstOrDefault();
+            return retVal;
         }
 
         public static IEnumerable<int> GetNumbers()

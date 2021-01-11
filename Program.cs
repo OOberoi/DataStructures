@@ -35,6 +35,12 @@ namespace InterviewQuestions
             }
             Console.ReadLine();
 
+            //--------------------New Method-------------------
+            string myName = Linq.GetUserName();
+            Console.WriteLine("My name is: {0}", myName);
+            Console.ReadLine();
+            //-----------------Ends here-----------------------
+
             //Reference Type
             Pupil std1 = new Pupil();
             std1.Name = "Obi Oberoi";
