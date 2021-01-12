@@ -19,7 +19,7 @@ namespace InterviewQuestions
             //Linq Class
 
             //FindNumber Starts here
-            bool isTrue = Linq.FindNumber(13);
+            bool isTrue = Linq.FindNumber(15);
             Console.WriteLine(isTrue == true ? "Number matches" : "Number does not match!");
             Console.ReadLine();
             // Ends here
