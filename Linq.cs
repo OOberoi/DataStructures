@@ -32,7 +32,7 @@ namespace Arrays
 
         public static bool FindNumber(int num)
         {
-            var numbers = new int[] { 9, 1, 5, 8, 6, 7, 3, 2, 0, 4 };
+            var numbers = new int[] { 9, 1, 5, 8, 6, 7, 3, 2, 0, 4, 10, 13 };
             int myVal = numbers.Where(n => n.Equals(num)).FirstOrDefault();
 
             if (myVal.Equals(num))
