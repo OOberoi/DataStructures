@@ -29,5 +29,17 @@ namespace Arrays
                         select number;
             return query;
         }
+
+        public static bool FindNumber(int num)
+        {
+            var numbers = new int[] { 9, 1, 5, 8, 6, 7, 3, 2, 0, 4 };
+            int myVal = numbers.Where(n => n.Equals(num)).FirstOrDefault();
+
+            if (myVal.Equals(num))
+            {
+                return true;
+            }
+            return false;
+        }
     }
 }

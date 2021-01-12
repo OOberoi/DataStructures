@@ -17,6 +17,14 @@ namespace InterviewQuestions
         static void Main(string[] args)
         {
             //Linq Class
+
+            //FindNumber Starts here
+            bool isTrue = Linq.FindNumber(13);
+            Console.WriteLine(isTrue);
+            Console.ReadLine();
+            // Ends here
+
+            // Starts here 
             var myList = Linq.GetUserNames();
 
             foreach (var item in myList)
