@@ -21,7 +21,7 @@ namespace InterviewQuestions
             var fileName = $"{Guid.NewGuid()}.csv";
 
             //FindNumber Starts here
-            int inputVal = 15;
+            int inputVal = 21;
             bool isTrue = Linq.FindNumber(inputVal);
             Console.WriteLine(isTrue == true ? $"The input value of {inputVal} matches with the number in the list." + $"The newly generated filename:{fileName}" :
                                                 $"The input value of {inputVal} does not match with the number in the list!" + $"The newly generated filename:{fileName}"); 
