@@ -19,7 +19,7 @@ namespace InterviewQuestions
             //Linq Class
 
             //FindNumber Starts here
-            int inputVal = 20;
+            int inputVal = 21;
             bool isTrue = Linq.FindNumber(inputVal);
             Console.WriteLine(isTrue == true ? $"The input value of {inputVal} matches with the number in the list." : 
                                                 $"The input value of {inputVal} does not match with the number in the list!");
