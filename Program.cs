@@ -17,12 +17,16 @@ namespace InterviewQuestions
         static void Main(string[] args)
         {
             //Linq Class
+            //to write the stram to a csv file
+            var fileName = $"{Guid.NewGuid()}.csv";
 
             //FindNumber Starts here
-            int inputVal = 21;
+            int inputVal = 20;
             bool isTrue = Linq.FindNumber(inputVal);
-            Console.WriteLine(isTrue == true ? $"The input value of {inputVal} matches with the number in the list." : 
-                                                $"The input value of {inputVal} does not match with the number in the list!");
+            Console.WriteLine(isTrue == true ? $"The input value of {inputVal} matches with the number in the list." + $"The newly generated filename:{fileName}" :
+                                                $"The input value of {inputVal} does not match with the number in the list!"); ;
+            
+
             Console.ReadLine();
             // Ends here
 
