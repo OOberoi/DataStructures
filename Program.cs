@@ -17,9 +17,9 @@ namespace InterviewQuestions
         static void Main(string[] args)
         {
             //Asynchronous Operation
-            string myStrVal = Asynchronous.GetHttpClient();
-            Console.WriteLine(myStrVal);
-            Console.ReadLine();
+            //string myStrVal = Asynchronous.GetHttpClient();
+            //Console.WriteLine(myStrVal);
+            //Console.ReadLine();
             //Ends here
 
             //Anonymous Types 
@@ -50,7 +50,7 @@ namespace InterviewQuestions
 
 
             var students = studentList.Select(s => new { id = s.StudentID, name = s.StudentName, s.Age });
-            //Console.WriteLine(students.GetType().ToString());
+            Console.WriteLine(students.GetType().ToString());
 
             foreach (var item in students)
             {
