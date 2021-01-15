@@ -55,11 +55,8 @@ namespace InterviewQuestions
             foreach (var item in students)
             {
                 Console.WriteLine(item.id + "-" + item.name + "-" + item.Age);
-
             }
             Console.ReadLine();
-
-
 
             //Linq Class
             //to write the stram to a csv file
