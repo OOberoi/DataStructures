@@ -16,6 +16,12 @@ namespace InterviewQuestions
         //this is pretty cool stuff. Just pulled the files from git on my surface
         static void Main(string[] args)
         {
+            //Asynchronous Operation
+            string myStrVal = Asynchronous.GetHttpClient();
+            Console.WriteLine(myStrVal);
+            Console.ReadLine();
+
+
             //Anonymous Types 
             IList<Students> studentList = new List<Students>()
             {
