@@ -72,11 +72,11 @@ namespace InterviewQuestions
             {
                 new Students() { StudentID = 1, StudentName = "John Oliver", Age = 18 },
                 new Students() { StudentID = 2, StudentName = "Steve Bassett",  Age = 21 },
-                new Students() { StudentID = 3, StudentName = "Bill Gates",  Age = 18 },
-                new Students() { StudentID = 4, StudentName = "Ram Vilas" , Age = 20  },
-                new Students() { StudentID = 5, StudentName = "Ron Kramer" , Age = 21 },
-                new Students() { StudentID = 6, StudentName = "Obi Oberoi" , Age = 41 },
-                new Students() { StudentID = 7, StudentName= "Arya Oberoi", Age = 13},
+                new Students() { StudentID = 3, StudentName = "Bill Gates",  Age = 23 },
+                new Students() { StudentID = 4, StudentName = "Ram Vilas" , Age = 25  },
+                new Students() { StudentID = 5, StudentName = "Ron Kramer" , Age = 27 },
+                new Students() { StudentID = 6, StudentName = "Obi Oberoi" , Age = 45 },
+                new Students() { StudentID = 7, StudentName= "Arya Oberoi", Age = 14},
                 new Students() { StudentID = 8, StudentName = "Gerard Webster", Age = 51 }
             };
 
