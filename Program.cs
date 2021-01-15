@@ -31,8 +31,10 @@ namespace InterviewQuestions
 
             var stud = (from s in studentList
                         select s).ToArray();
+            //OR
+            var stud1 = studentList.Select(s => new { s.StudentID, s.StudentName, s.Age } ).ToArray();
 
-            foreach (var item in stud)
+            foreach (var item in stud1)
             {
                 Console.WriteLine($"Student ID: {item.StudentID}");
                 Console.WriteLine($"Student Name: {item.StudentName}");
