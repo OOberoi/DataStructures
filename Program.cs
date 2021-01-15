@@ -16,6 +16,43 @@ namespace InterviewQuestions
         //this is pretty cool stuff. Just pulled the files from git on my surface
         static void Main(string[] args)
         {
+            //Anonymous Types 
+            IList<Students> studentList = new List<Students>()
+            {
+                new Students() { StudentID = 1, StudentName = "John Oliver", Age = 18 },
+                new Students() { StudentID = 2, StudentName = "Steve Bassett",  Age = 21 },
+                new Students() { StudentID = 3, StudentName = "Bill Gates",  Age = 23 },
+                new Students() { StudentID = 4, StudentName = "Ram Vilas" , Age = 25  },
+                new Students() { StudentID = 5, StudentName = "Ron Kramer" , Age = 27 },
+                new Students() { StudentID = 6, StudentName = "Obi Oberoi" , Age = 45 },
+                new Students() { StudentID = 7, StudentName= "Arya Oberoi", Age = 14},
+                new Students() { StudentID = 8, StudentName = "Gerard Webster", Age = 51 }
+            };
+
+            var stud = (from s in studentList
+                        select s).ToArray();
+
+            foreach (var item in stud)
+            {
+                Console.WriteLine($"Student ID: {item.StudentID}");
+                Console.WriteLine($"Student Name: {item.StudentName}");
+                Console.WriteLine($"Age: {item.Age}");
+            }
+            Console.ReadLine();
+
+
+            var students = studentList.Select(s => new { id = s.StudentID, name = s.StudentName, s.Age });
+            //Console.WriteLine(students.GetType().ToString());
+
+            foreach (var item in students)
+            {
+                Console.WriteLine(item.id + "-" + item.name + "-" + item.Age);
+
+            }
+            Console.ReadLine();
+
+
+
             //Linq Class
             //to write the stram to a csv file
             var fileName = $"{Guid.NewGuid()}.csv";
@@ -67,28 +104,7 @@ namespace InterviewQuestions
             HareAndTortoise();
 
 
-            //Anonymous Types 
-            IList<Students> studentList = new List<Students>()
-            {
-                new Students() { StudentID = 1, StudentName = "John Oliver", Age = 18 },
-                new Students() { StudentID = 2, StudentName = "Steve Bassett",  Age = 21 },
-                new Students() { StudentID = 3, StudentName = "Bill Gates",  Age = 23 },
-                new Students() { StudentID = 4, StudentName = "Ram Vilas" , Age = 25  },
-                new Students() { StudentID = 5, StudentName = "Ron Kramer" , Age = 27 },
-                new Students() { StudentID = 6, StudentName = "Obi Oberoi" , Age = 45 },
-                new Students() { StudentID = 7, StudentName= "Arya Oberoi", Age = 14},
-                new Students() { StudentID = 8, StudentName = "Gerard Webster", Age = 51 }
-            };
-
-            var students = studentList.Select(s => new { id = s.StudentID, name = s.StudentName, s.Age });
-            //Console.WriteLine(students.GetType().ToString());
-
-            foreach (var item in students)
-            {
-                Console.WriteLine(item.id + "-" + item.name + "-" + item.Age);
-
-            }
-            Console.ReadLine();
+            
 
 
             //Collections
