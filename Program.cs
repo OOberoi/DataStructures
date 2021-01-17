@@ -93,7 +93,7 @@ namespace InterviewQuestions
 
             //--------------------New Method-------------------
             string myName = Linq.GetUserName();
-            Console.WriteLine("My name is: {0}", myName);
+            Console.WriteLine($"My name is: {myName}");
             Console.ReadLine();
             //-----------------Ends here-----------------------
 
