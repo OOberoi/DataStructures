@@ -133,20 +133,20 @@ namespace InterviewQuestions
 
 
             //Frog Jump
-            //int retVal = Codility.FrogJump(10, 85, 30);
-            //Console.WriteLine(retVal);
-            //Console.ReadLine();
+            int retVal = Codility.FrogJump(10, 85, 30);
+            Console.WriteLine(retVal);
+            Console.ReadLine();
 
             //Unpaired number
-            //int[] pairsArr = new int[] {9,3,9,3,5,7,9 }; //orfff
-            //int retVal = Codility.FindUpaired(pairsArr);
-            //int retVal = Codility.FindUpairedLINQ(pairsArr);
-            //Console.WriteLine(retVal);
-            //Console.ReadLine();
+            int[] pairsArr = new int[] { 9, 3, 9, 3, 5, 7, 9 }; //orfff
+            int retVal1 = Codility.FindUpaired(pairsArr);
+            int retVal2 = Codility.FindUpairedLINQ(pairsArr);
+            Console.WriteLine(retVal);
+            Console.ReadLine();
 
             //Stack info
-            //Collections.GetStackInfo();
-            //Console.ReadLine();
+            Collections.GetStackInfo();
+            Console.ReadLine();
 
             //Cyclic Rotation
             //int[] a = new int[] { 3, 8, 9, 7, 6 };
