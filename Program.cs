@@ -17,9 +17,9 @@ namespace InterviewQuestions
         static void Main(string[] args)
         {
             //Asynchronous Operation
-            //string myStrVal = Asynchronous.GetHttpClient();
-            //Console.WriteLine(myStrVal);
-            //Console.ReadLine();
+            string myStrVal = Asynchronous.GetHttpClient();
+            Console.WriteLine(myStrVal);
+            Console.ReadLine();
             //Ends here
 
             //Anonymous Types 
@@ -38,7 +38,7 @@ namespace InterviewQuestions
             var stud = (from s in studentList
                         select s).ToArray();
             //OR
-            var stud1 = studentList.Select(s => new { s.StudentID, s.StudentName, s.Age } ).ToArray();
+            var stud1 = studentList.Select(s => new { s.StudentID, s.StudentName, s.Age }).ToArray();
 
             foreach (var item in stud1)
             {
@@ -63,9 +63,9 @@ namespace InterviewQuestions
             var fileName = $"{Guid.NewGuid()}.csv";
 
             //FindNumber Starts here
-            int inputVal = 21;
+            int inputVal = 15;
             bool isTrue = Linq.FindNumber(inputVal);
-            Console.WriteLine(isTrue == true ? $"The input value of {inputVal} matches with the number in the list." + $"The newly generated filename:{fileName}" :
+            Console.WriteLine(isTrue == true ? $"The input value of {inputVal} matches with the number in the list. " + $"The newly generated filename:{fileName}" :
                                                 $"The input value of {inputVal} does not match with the number in the list!" + $"The newly generated filename:{fileName}"); 
             
 
