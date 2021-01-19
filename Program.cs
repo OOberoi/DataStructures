@@ -93,7 +93,7 @@ namespace InterviewQuestions
 
             //--------------------New Method-------------------
             string myName = Linq.GetUserName();
-            Console.WriteLine("My name is: {0}", myName);
+            Console.WriteLine($"My name is: {myName}");
             Console.ReadLine();
             //-----------------Ends here-----------------------
 
@@ -133,48 +133,48 @@ namespace InterviewQuestions
 
 
             //Frog Jump
-            //int retVal = Codility.FrogJump(10, 85, 30);
-            //Console.WriteLine(retVal);
-            //Console.ReadLine();
+            int retVal = Codility.FrogJump(10, 85, 30);
+            Console.WriteLine(retVal);
+            Console.ReadLine();
 
             //Unpaired number
-            //int[] pairsArr = new int[] {9,3,9,3,5,7,9 }; //orfff
-            //int retVal = Codility.FindUpaired(pairsArr);
-            //int retVal = Codility.FindUpairedLINQ(pairsArr);
-            //Console.WriteLine(retVal);
-            //Console.ReadLine();
+            int[] pairsArr = new int[] { 9, 3, 9, 3, 5, 7, 9 }; //orfff
+            int retVal1 = Codility.FindUpaired(pairsArr);
+            int retVal2 = Codility.FindUpairedLINQ(pairsArr);
+            Console.WriteLine(retVal);
+            Console.ReadLine();
 
             //Stack info
-            //Collections.GetStackInfo();
-            //Console.ReadLine();
+            Collections.GetStackInfo();
+            Console.ReadLine();
 
             //Cyclic Rotation
-            //int[] a = new int[] { 3, 8, 9, 7, 6 };
-            //int k = 3;
+            int[] a = new int[] { 3, 8, 9, 7, 6 };
+            int k = 3;
 
-            //int[] arr = CyclicRotation.GetCyclicRotation(a, k);
-            //foreach (var item in arr)
-            //{
-            //    Console.WriteLine(item);
-            //}
-            //Console.ReadLine();
+            int[] array1 = CyclicRotation.GetCyclicRotation(a, k);
+            foreach (var item in array1)
+            {
+                Console.WriteLine(item);
+            }
+            Console.ReadLine();
 
             //Get Binary Gap
-            //int retval = BinaryGap.FindBinaryGap(9);
-            //Console.WriteLine(retval);
-            //Console.ReadLine();
+            int retval = BinaryGap.FindBinaryGap(9);
+            Console.WriteLine(retval);
+            Console.ReadLine();
 
             //gryptech********************************
-            //MathUtil.GetLargestNumber(989);
+            MathUtil.GetLargestNumber(989);
 
-            //Dog d1 = new Dog();
-            //Chihuahua d2 = new Chihuahua();
-            //Dog d3 = d2;
+            Dog d1 = new Dog();
+            Chihuahua d2 = new Chihuahua();
+            Dog d3 = d2;
 
-            //d1.Bark();
-            //d2.Bark();
-            //d3.Bark();
-            //Console.ReadLine();
+            d1.Bark();
+            d2.Bark();
+            d3.Bark();
+            Console.ReadLine();
             //****************************************
 
 
