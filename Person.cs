@@ -8,6 +8,13 @@ namespace Arrays
     {
         public string FirstName { get; }
         public string LastName { get; }
-        public string Age { get; }
+        public int Age { get; }
+
+        public Person(string firstName, string lastName, int age)
+        {
+            this.FirstName = firstName;
+            this.LastName = lastName;
+            this.Age = age;
+        }
     }
 }

@@ -16,6 +16,12 @@ namespace InterviewQuestions
         //this is pretty cool stuff. Just pulled the files from git on my surface
         static void Main(string[] args)
         {
+            //Record type
+            var p1 = new Person("Obi", "Oberoi", 44);
+            //record Person(string firstName, string lastName, int age);
+
+
+
             //Asynchronous Operation
             string myStrVal = Asynchronous.GetHttpClient();
             Console.WriteLine(myStrVal);
