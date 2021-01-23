@@ -402,7 +402,7 @@ namespace InterviewQuestions
                 Console.WriteLine(x.ToString());
             }
 
-        }
+        }       
 
 
         public class Solution
@@ -689,16 +689,12 @@ namespace InterviewQuestions
     /// </summary>
     public class ClassTest1
     {
-        public ClassTest1()
+        private ClassTest1()
         {
 
         }
     }
-
-    public class ClassTest2 : ClassTest1
-    {
-
-    }
+    
     #endregion
 
     #region Linked List
@@ -905,6 +901,7 @@ namespace InterviewQuestions
     {
         public string Name { get; set; }
     }
-
+    
+    
 
 }
