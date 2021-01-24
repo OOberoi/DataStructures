@@ -21,6 +21,7 @@ namespace InterviewQuestions
             p1.FirstName = "John";
             Console.WriteLine($"The First Name is: {p1.FirstName}");
             Console.WriteLine($"The Last Name is: {p1.LastName}");
+            Console.WriteLine($"The Age is: {p1.Age}");
             Console.ReadLine();
 
 
