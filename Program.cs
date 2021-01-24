@@ -17,8 +17,9 @@ namespace InterviewQuestions
         static void Main(string[] args)
         {
             //Record type
-            var p1 = new Person("Obi", "Oberoi", 44);
-            //record Person(string firstName, string lastName, int age);
+            var p1 = new Person();
+            p1.FirstName = "Obi";
+
 
 
 
@@ -901,7 +902,10 @@ namespace InterviewQuestions
     {
         public string Name { get; set; }
     }
-    
-    
 
+    public record Person
+    { 
+        public string FirstName { get; }
+
+    }
 }
