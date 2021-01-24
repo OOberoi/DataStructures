@@ -17,7 +17,7 @@ namespace InterviewQuestions
         static void Main(string[] args)
         {
             //Record type
-            var p1 = new Person();
+            var p1 = new Person("Obi", "Oberoi", 44);
             p1.FirstName = "Obi";
 
 
@@ -73,8 +73,8 @@ namespace InterviewQuestions
             int inputVal = 15;
             bool isTrue = Linq.FindNumber(inputVal);
             Console.WriteLine(isTrue == true ? $"The input value of {inputVal} matches with the number in the list. " + $"The newly generated filename:{fileName}" :
-                                                $"The input value of {inputVal} does not match with the number in the list!" + $"The newly generated filename:{fileName}"); 
-            
+                                                $"The input value of {inputVal} does not match with the number in the list!" + $"The newly generated filename:{fileName}");
+
 
             Console.ReadLine();
             // Ends here
@@ -116,7 +116,7 @@ namespace InterviewQuestions
             HareAndTortoise();
 
 
-            
+
 
 
             //Collections
@@ -403,7 +403,7 @@ namespace InterviewQuestions
                 Console.WriteLine(x.ToString());
             }
 
-        }       
+        }
 
 
         public class Solution
@@ -695,7 +695,7 @@ namespace InterviewQuestions
 
         }
     }
-    
+
     #endregion
 
     #region Linked List
@@ -902,10 +902,4 @@ namespace InterviewQuestions
     {
         public string Name { get; set; }
     }
-
-    public record Person
-    { 
-        public string FirstName { get; }
-
-    }
-}
+}    
