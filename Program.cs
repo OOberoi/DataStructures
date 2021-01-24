@@ -20,11 +20,12 @@ namespace InterviewQuestions
             var p1 = new Person("Obi", "Oberoi", 44);
             var p2 = new Person("Sunita", "Oberoi", 40);
             p1.FirstName = "John";
+            Console.WriteLine("----------------------------------");
             p2.FirstName = "Gucci";
             Console.WriteLine($"The First Name is: {p2.FirstName}");
             Console.WriteLine($"The Last Name is: {p2.LastName}");
             Console.WriteLine($"The Age is: {p2.Age}");
-            Console.WriteLine("----------------------------------");
+
             Console.ReadLine();
 
 
