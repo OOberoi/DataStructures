@@ -18,8 +18,9 @@ namespace InterviewQuestions
         {
             //Record type
             var p1 = new Person("Obi", "Oberoi", 44);
-            p1.FirstName = "Obi";
-
+            p1.FirstName = "John";
+            Console.WriteLine($"The name is {p1.FirstName}");
+            Console.ReadLine();
 
 
 
