@@ -18,10 +18,13 @@ namespace InterviewQuestions
         {
             //Record type
             var p1 = new Person("Obi", "Oberoi", 44);
+            var p2 = new Person("Sunita", "Oberoi", 40);
             p1.FirstName = "John";
+            p2.FirstName = "Gucci";
             Console.WriteLine($"The First Name is: {p1.FirstName}");
             Console.WriteLine($"The Last Name is: {p1.LastName}");
             Console.WriteLine($"The Age is: {p1.Age}");
+            Console.WriteLine("----------------------------------");
             Console.ReadLine();
 
 
