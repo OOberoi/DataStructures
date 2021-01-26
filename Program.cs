@@ -30,6 +30,9 @@ namespace InterviewQuestions
             p3.FirstName = "Ari";
             list.Add(p3);
 
+            var p4 = new Person("Sia", "Oberoi", 17, 'F');
+            list.Add(p4);
+
             foreach (var item in list)
             {
                 Console.WriteLine($"The First Name is: {item.FirstName}");
