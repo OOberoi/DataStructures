@@ -18,11 +18,11 @@ namespace InterviewQuestions
         {
             //Record type
             List<Person> list = new List<Person>();
-            var p1 = new Person("Obi", "Oberoi", 44);
+            var p1 = new Person("Obi", "Oberoi", 44, 'M');
             p1.FirstName = "John";
             list.Add(p1);
 
-            var p2 = new Person("Sunita", "Oberoi", 40);
+            var p2 = new Person("Sunita", "Oberoi", 40, 'F');
             p2.FirstName = "Gucci";
             list.Add(p2);
 
