@@ -26,19 +26,15 @@ namespace InterviewQuestions
             p2.FirstName = "Gucci";
             list.Add(p2);
 
-            Console.WriteLine($"The First Name is: {p1.FirstName}");
-            Console.WriteLine($"The Last Name is: {p1.LastName}");
-            Console.WriteLine($"The Age is: {p1.Age}");
-
-            Console.WriteLine("----------------------------------");
-            
-            Console.WriteLine($"The First Name is: {p2.FirstName}");
-            Console.WriteLine($"The Last Name is: {p2.LastName}");
-            Console.WriteLine($"The Age is: {p2.Age}");
+            foreach (var item in list)
+            {
+                Console.WriteLine($"The First Name is: {item.FirstName}");
+                Console.WriteLine($"The Last Name is: {item.LastName}");
+                Console.WriteLine($"The First Name is: {item.Age}");
+                Console.WriteLine("----------------------------------");
+            }
 
             Console.ReadLine();
-
-
 
             //Asynchronous Operation
             string myStrVal = Asynchronous.GetHttpClient();
