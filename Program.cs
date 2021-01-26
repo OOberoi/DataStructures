@@ -17,15 +17,21 @@ namespace InterviewQuestions
         static void Main(string[] args)
         {
             //Record type
+            List<Person> list = new List<Person>();
             var p1 = new Person("Obi", "Oberoi", 44);
-            var p2 = new Person("Sunita", "Oberoi", 40);
             p1.FirstName = "John";
+            list.Add(p1);
+
+            var p2 = new Person("Sunita", "Oberoi", 40);
+            p2.FirstName = "Gucci";
+            list.Add(p2);
+
             Console.WriteLine($"The First Name is: {p1.FirstName}");
             Console.WriteLine($"The Last Name is: {p1.LastName}");
             Console.WriteLine($"The Age is: {p1.Age}");
 
             Console.WriteLine("----------------------------------");
-            p2.FirstName = "Gucci";
+            
             Console.WriteLine($"The First Name is: {p2.FirstName}");
             Console.WriteLine($"The Last Name is: {p2.LastName}");
             Console.WriteLine($"The Age is: {p2.Age}");
