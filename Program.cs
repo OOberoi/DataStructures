@@ -39,7 +39,6 @@ namespace InterviewQuestions
 
             string GetGender(char gender)
             {
-                //var retVal = gender == 'M' ? "Male" : "Femaile";
                 return (gender == 'M' ? "Male" : "Female");
             }
 
