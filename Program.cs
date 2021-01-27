@@ -11,11 +11,17 @@ using Arrays;
 namespace InterviewQuestions
 {
     class Program
-    {
+    {        
         //will start using it more frequently!!!
         //this is pretty cool stuff. Just pulled the files from git on my surface
         static void Main(string[] args)
         {
+            //call the Add program
+            Console.WriteLine(Add(3,4));
+
+
+
+
             //Record type
             List<Person> list = new List<Person>();
             var p1 = new Person("Obi", "Oberoi", 44, 'M');
@@ -48,6 +54,13 @@ namespace InterviewQuestions
             {
                 return (gender == 'M' ? "Male" : "Female");
             }
+
+
+            static double Add (double x, double y)
+            {
+                return x + y;
+            }
+
 
             //Asynchronous Operation
             string myStrVal = Asynchronous.GetHttpClient();
