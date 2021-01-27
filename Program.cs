@@ -1,12 +1,8 @@
-﻿using System;
+﻿using Arrays;
+using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading;
-using System.Threading.Tasks;
-using System.Collections;
-using System.Xml.Linq;
-using Arrays;
 
 namespace InterviewQuestions
 {
@@ -16,11 +12,8 @@ namespace InterviewQuestions
         //this is pretty cool stuff. Just pulled the files from git on my surface
         static void Main(string[] args)
         {
-            //call the Add program
+            //call the Add program to check the inline parameters value as part of the new features in the latest release
             Console.WriteLine(Add(3,4));
-
-
-
 
             //Record type
             List<Person> list = new List<Person>();
