@@ -36,6 +36,7 @@ namespace InterviewQuestions
 
             foreach (var item in list)
             {
+                Console.WriteLine($"The Id is: {item.Id}");
                 Console.WriteLine($"The First Name is: {item.FirstName}");
                 Console.WriteLine($"The Last Name is: {item.LastName}");
                 Console.WriteLine($"The First Name is: {item.Age}");
