@@ -38,6 +38,7 @@ namespace InterviewQuestions
             //Don't do this
             Person p5;
             p5 = new(25, "Krishan", "Oberoi", 80, 'M');
+            list.Add(p5);
 
             foreach (var item in list)
             {
