@@ -32,7 +32,7 @@ namespace InterviewQuestions
             p3.FirstName = "Ari";
             list.Add(p3);
 
-            var p4 = new Person(23,"Sia", "Oberoi", 17, 'F');
+            Person p4 = new(23,"Sia", "Oberoi", 17, 'F');
             list.Add(p4);
 
             foreach (var item in list)
