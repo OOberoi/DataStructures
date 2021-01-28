@@ -19,19 +19,19 @@ namespace InterviewQuestions
 
             //Record type
             List<Person> list = new List<Person>();
-            var p1 = new Person("Obi", "Oberoi", 44, 'M');
+            var p1 = new Person(7,"Obi", "Oberoi", 44, 'M');
             p1.FirstName = "John";
             list.Add(p1);
 
-            var p2 = new Person("Sunita", "Oberoi", 40, 'F');
+            var p2 = new Person(7,"Sunita", "Oberoi", 40, 'F');
             p2.FirstName = "Gucci";
             list.Add(p2);
 
-            var p3 = new Person("Arya", "Oberoi", 14, 'M');
+            var p3 = new Person(27,"Arya", "Oberoi", 14, 'M');
             p3.FirstName = "Ari";
             list.Add(p3);
 
-            var p4 = new Person("Sia", "Oberoi", 17, 'F');
+            var p4 = new Person(23,"Sia", "Oberoi", 17, 'F');
             list.Add(p4);
 
             foreach (var item in list)
