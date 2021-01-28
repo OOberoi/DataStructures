@@ -24,11 +24,11 @@ namespace InterviewQuestions
             list.Add(p1);
 
             //This is a new feature of C# 9.0 where you don't need to repeat an object twice when newing up!
-            Person p2 = new (7,"Sunita", "Oberoi", 40, 'F');
+            Person p2 = new(7, "Sunita", "Oberoi", 40, 'F');
             p2.FirstName = "Gucci";
             list.Add(p2);
 
-            var p3 = new Person(27,"Arya", "Oberoi", 14, 'M');
+            Person p3 = new(  27,  "Arya",  "Oberoi", 14, 'M');
             p3.FirstName = "Ari";
             list.Add(p3);
 
