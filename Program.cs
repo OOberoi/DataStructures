@@ -39,7 +39,7 @@ namespace InterviewQuestions
                 Console.WriteLine($"The First Name is: {item.FirstName}");
                 Console.WriteLine($"The Last Name is: {item.LastName}");
                 Console.WriteLine($"The First Name is: {item.Age}");
-                Console.WriteLine("The Gender is: " + GetGender(item.Gender));
+                Console.WriteLine($"The Gender is: {GetGender(item.Gender)}");
                 Console.WriteLine("----------------------------------");
             }
 
