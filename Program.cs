@@ -70,7 +70,8 @@ namespace InterviewQuestions
                     >= 40 => "Hot",
                     >= 30  => "Warm" ,
                     >= 20 => "Pleasant",
-                    _ => "Unknown"
+                    >= 10 => "Cool",
+                    _ => "Don't know!"
                 };
                 return retval;
             }
