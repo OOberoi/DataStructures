@@ -61,6 +61,17 @@ namespace InterviewQuestions
                 return (gender == 'M' ? "Male" : "Female");
             }
 
+            string GetWeatherSummary(float temp)
+            {
+                string retval = temp switch
+                {
+                    < 0 => "Well below freezing",
+                    0 => "Exctly Freezing",
+                    _ => "Unknown"
+                };
+                return retval;
+            }
+
 
             static double Add (double x, double y)
             {
