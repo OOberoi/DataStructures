@@ -12,12 +12,12 @@ namespace InterviewQuestions
         //this is pretty cool stuff. Just pulled the files from git on my surface
         static void Main(string[] args)
         //top-level feature can be added by removing static void Main method completely!
-
+        {
             //To do: To include Relational pattern matching using >, <, >=, <= in the coming days...
             //code goes here
+            Console.WriteLine($"The weather is: {GetWeatherSummary(5)}");
 
 
-        {
             //call the Add program to check the inline parameters value as part of the new features in the latest release
             Console.WriteLine(Add(3,4));
 
@@ -61,7 +61,7 @@ namespace InterviewQuestions
                 return (gender == 'M' ? "Male" : "Female");
             }
 
-            string GetWeatherSummary(float temp)
+            static string GetWeatherSummary(float temp)
             {
                 string retval = temp switch
                 {
