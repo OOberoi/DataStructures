@@ -69,6 +69,7 @@ namespace InterviewQuestions
                     0 => "Exctly Freezing",
                     >= 40 => "Hot",
                     >= 30  => "Warm" ,
+                    >= 20 => "Pleasant",
                     _ => "Unknown"
                 };
                 return retval;
