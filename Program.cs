@@ -61,16 +61,19 @@ namespace InterviewQuestions
                 return (gender == 'M' ? "Male" : "Female");
             }
 
+            // Relation pattern matching i.e. <, >, <=, >=
+            // Logical pattern matching i.e. and, or & not
             static string GetWeatherSummary(float temp)
             {
                 string retval = temp switch
                 {
                     < 0 => "Well below freezing",
                     0 => "Exctly Freezing",
-                    >= 40 => "Hot",
-                    >= 30  => "Warm" ,
-                    >= 20 => "Pleasant",
-                    >= 10 => "Cool",
+                    >= 0 and < 20 => "Cool",
+                    >= 20 and < 30 => "Pleasant",
+                    >= 30 and < 35 => "Warm",
+                    >= 35 and < 42  => "Balmy" ,
+                    >42 => "Hot",                                        
                     _ => "Don't know!"
                 };
                 return retval;
