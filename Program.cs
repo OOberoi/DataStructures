@@ -79,7 +79,7 @@ namespace InterviewQuestions
                     >= 30 and < 35 => "Warm",
                     >= 35 and < 42  => "Balmy" ,
                     >42 => "Hot",                                        
-                    _ => "Don't know!"
+                    _ => "This better be Mars!!!"
                 };
                 return retval;
             }
