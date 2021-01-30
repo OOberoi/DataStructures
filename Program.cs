@@ -68,7 +68,7 @@ namespace InterviewQuestions
                 string retval = temp switch
                 {
                     < 0 => "Well below freezing",
-                    0 => "Exctly Freezing",
+                    0 => "Exactly Freezing",
                     >= 0 and < 20 => "Cool",
                     >= 20 and < 30 => "Pleasant",
                     >= 30 and < 35 => "Warm",
