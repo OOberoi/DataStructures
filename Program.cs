@@ -16,6 +16,8 @@ namespace InterviewQuestions
             // Tuple example
             var (_, _, _, pop1, _, pop2) = TupleSample.QueryCityDataForYears("New York City", 1960, 2010);
             Console.WriteLine($"Population change, 1960 to 2010: {pop2 - pop1:N0}");
+            Console.ReadLine();
+
 
             // Relational pattern matching using >, <, >=, <= in the coming days...
             Console.WriteLine($"The weather is: {GetWeatherSummary(0)}");
