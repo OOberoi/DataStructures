@@ -15,7 +15,7 @@ namespace InterviewQuestions
         {
             //To do: To include Relational pattern matching using >, <, >=, <= in the coming days...
             //code goes here
-            Console.WriteLine($"The weather is: {GetWeatherSummary(25)}");
+            Console.WriteLine($"The weather is: {GetWeatherSummary(0)}");
             Console.ReadLine();
 
             //call the Add program to check the inline parameters value as part of the new features in the latest release
