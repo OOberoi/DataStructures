@@ -8,7 +8,7 @@ namespace Arrays
 {
     public static class TupleSample
     {
-        private static (string, double, int, int, int, int) QueryCityDataForYears(string name, int year1, int year2)
+        public static (string, double, int, int, int, int) QueryCityDataForYears(string name, int year1, int year2)
         {
             int population1 = 0, population2 = 0;
             double area = 0;
