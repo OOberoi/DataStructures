@@ -13,8 +13,7 @@ namespace InterviewQuestions
         static void Main(string[] args)
         //top-level feature can be added by removing static void Main method completely!
         {
-            //To do: To include Relational pattern matching using >, <, >=, <= in the coming days...
-            //code goes here
+            // Relational pattern matching using >, <, >=, <= in the coming days...
             Console.WriteLine($"The weather is: {GetWeatherSummary(0)}");
             Console.ReadLine();
 
