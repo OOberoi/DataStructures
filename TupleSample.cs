@@ -16,11 +16,11 @@ namespace Arrays
             if (name == "New York City")
             {
                 area = 468.48;
-                if (year1 == 1960)
+                if (year1 is 1960)
                 {
                     population1 = 7781984;
                 }
-                if (year2 == 2010)
+                if (year2 is 2010)
                 {
                     population2 = 8175133;
                 }
