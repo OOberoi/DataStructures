@@ -44,10 +44,8 @@ namespace Arrays
     // Example2
     public class MyStaticClass
     {
-        static int count;
         static MyStaticClass()
         {
-            count = 0;
             Console.WriteLine("Static class is initialized");
         }
         public static void MyMethod(string name)
