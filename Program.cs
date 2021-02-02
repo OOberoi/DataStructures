@@ -78,7 +78,7 @@ namespace InterviewQuestions
                     >= 20 and < 30 => "Pleasant",
                     >= 30 and < 35 => "Warm",
                     >= 35 and < 42  => "Balmy" ,
-                    >42 => "Hot",                                        
+                    >42 and <= 45 => "Hot",                                        
                     _ => "This better be Mars!!!"
                 };
                 return retval;
