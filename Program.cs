@@ -812,7 +812,7 @@ namespace InterviewQuestions
                 toAdd.data = data;
 
                 Node current = head;
-                while (current.next != null)
+                while (current.next is not null)
                 {
                     current = current.next;
                 }
