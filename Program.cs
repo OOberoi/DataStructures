@@ -70,7 +70,7 @@ namespace InterviewQuestions
             // Logical pattern matching i.e. and, or & not
             static string GetWeatherSummary(float temp)
             {
-                string retval = temp switch
+                string retval = temp switch 
                 {
                     < 0 => "Well below freezing",
                     0 => "Exactly Freezing",
@@ -780,7 +780,7 @@ namespace InterviewQuestions
         internal void PrintAllNodes()
         {
             Node current = head;
-            while (current != null)
+            while (current is not null)
             {
                 Console.WriteLine(current.data);
                 current = current.next;
@@ -799,7 +799,7 @@ namespace InterviewQuestions
 
         public void AddLast(Object data)
         {
-            if (head == null)
+            if (head is null)
             {
                 head = new Node();
 
