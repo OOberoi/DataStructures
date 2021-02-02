@@ -15,11 +15,11 @@ namespace Arrays
         {
             get
             {
-                if (_instance == null)
+                if (_instance is null)
                 {
                     lock (_instance) //to prevent multi-threading
                     {
-                        if (_instance == null)
+                        if (_instance is null)
                         {
                             _instance = new Singleton();
                         }
