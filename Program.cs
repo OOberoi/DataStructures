@@ -863,18 +863,18 @@ namespace InterviewQuestions
             _vStack = new List<string>();
 
         }
-        public int Size { get { return (_vStack == null) ? 0 : _vStack.Count; } }
+        public int Size { get { return (_vStack is null) ? 0 : _vStack.Count; } }
         public void Push(string input)
         {
             _vStack.Insert(0, input);
         }
         public string Pop()
         {
-            string result = (_vStack == null || _vStack.Count == 0) ? String.Empty : _vStack[0];
+            string result = (_vStack is null || _vStack.Count == 0) ? String.Empty : _vStack[0];
             _vStack.RemoveAt(0);
             return result;
         }
-        public bool IsEmpty { get { return (_vStack == null || _vStack.Count == 0) ? true : false; } }
+        public bool IsEmpty { get { return (_vStack is null || _vStack.Count == 0) ? true : false; } }
     }
     #endregion
 
