@@ -20,5 +20,13 @@ namespace Arrays
             this.Age = age;
             this.Gender = gender;
         }
+
+        public void Deconstruct(out string firstName, out string lastName, out int age, out char gender)
+        {
+            firstName = this.FirstName;
+            lastName = this.LastName;
+            age = this.Age;
+            gender = this.Gender;
+        }
     }
 }
