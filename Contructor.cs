@@ -9,6 +9,7 @@ namespace Arrays
         public int ID;
         public string Name;
 
+        // Constructor with property initializer
         public Contructor()
         {
             ID = 7;
