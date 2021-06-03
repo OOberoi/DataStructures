@@ -7,19 +7,47 @@ namespace Models
     {
         [JsonProperty("familyName")]
         public string FamilyName { get; set; }
+
+        [JsonProperty("")]
         public string AddressLine { get; set; }
+
+        [JsonProperty("")]
         public string City { get; set; }
+
+        [JsonProperty("")]
         public string State { get; set; }
+
+        [JsonProperty("")]
         public string ZipCode { get; set; }
+
+        [JsonProperty("")]
         public string FatherName { get; set; }
+
+        [JsonProperty("")]
         public string MotherName { get; set; }
+
+        [JsonProperty("")]
         public string FirstChild { get; set; }
+
+        [JsonProperty("")]
         public string SecondChild { get; set; }
+
+        [JsonProperty("")]
         public string ThirdChild { get; set; }
+
+        [JsonProperty("")]
         public string FourthChild { get; set; }
+
+        [JsonProperty("")]
         public string FifthChild { get; set; }
+
+        [JsonProperty("")]
         public string FirstPet { get; set; }
+
+        [JsonProperty("")]
         public string SecondPet { get; set; }
+
+        [JsonProperty("")]
         public string ThirdPet { get; set; }
     }
 }
