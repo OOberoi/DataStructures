@@ -17,10 +17,10 @@ namespace Models
         [JsonProperty("state")]
         public string State { get; set; }
 
-        [JsonProperty("")]
+        [JsonProperty("zipCodes")]
         public string ZipCode { get; set; }
 
-        [JsonProperty("")]
+        [JsonProperty("fatherName")]
         public string FatherName { get; set; }
 
         [JsonProperty("")]
