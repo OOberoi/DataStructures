@@ -11,7 +11,7 @@ namespace Models
         [JsonProperty("addressLine")]
         public string AddressLine { get; set; }
 
-        [JsonProperty("")]
+        [JsonProperty("citys")]
         public string City { get; set; }
 
         [JsonProperty("")]
