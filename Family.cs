@@ -1,9 +1,11 @@
-﻿using System;
+﻿using Newtonsoft.Json;
+using System.Text.Json;
 
 namespace Models
 {
     public class Family
     {
+        [JsonProperty("familyName")]
         public string FamilyName { get; set; }
         public string AddressLine { get; set; }
         public string City { get; set; }
