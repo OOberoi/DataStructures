@@ -29,7 +29,7 @@ namespace Models
         [JsonProperty("firstChild")]
         public string FirstChild { get; set; }
 
-        [JsonProperty("")]
+        [JsonProperty("secondChild")]
         public string SecondChild { get; set; }
 
         [JsonProperty("")]
