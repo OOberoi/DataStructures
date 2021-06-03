@@ -8,7 +8,7 @@ namespace Models
         [JsonProperty("familyName")]
         public string FamilyName { get; set; }
 
-        [JsonProperty("")]
+        [JsonProperty("addressLine")]
         public string AddressLine { get; set; }
 
         [JsonProperty("")]
