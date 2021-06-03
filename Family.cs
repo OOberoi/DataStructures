@@ -26,7 +26,7 @@ namespace Models
         [JsonProperty("motherName")]
         public string MotherName { get; set; }
 
-        [JsonProperty("")]
+        [JsonProperty("firstChild")]
         public string FirstChild { get; set; }
 
         [JsonProperty("")]
