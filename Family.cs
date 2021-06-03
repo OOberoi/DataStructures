@@ -14,7 +14,7 @@ namespace Models
         [JsonProperty("citys")]
         public string City { get; set; }
 
-        [JsonProperty("")]
+        [JsonProperty("state")]
         public string State { get; set; }
 
         [JsonProperty("")]
