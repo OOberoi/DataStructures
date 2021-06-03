@@ -23,7 +23,7 @@ namespace Models
         [JsonProperty("fatherName")]
         public string FatherName { get; set; }
 
-        [JsonProperty("")]
+        [JsonProperty("motherName")]
         public string MotherName { get; set; }
 
         [JsonProperty("")]
