@@ -32,7 +32,7 @@ namespace Models
         [JsonProperty("secondChild")]
         public string SecondChild { get; set; }
 
-        [JsonProperty("")]
+        [JsonProperty("thirdChilds")]
         public string ThirdChild { get; set; }
 
         [JsonProperty("")]
