@@ -35,7 +35,7 @@ namespace Models
         [JsonProperty("thirdChilds")]
         public string ThirdChild { get; set; }
 
-        [JsonProperty("")]
+        [JsonProperty("fourthChild")]
         public string FourthChild { get; set; }
 
         [JsonProperty("")]
