@@ -52,5 +52,7 @@ namespace Models
 
         public string FourthPet { get; set; }
 
+        public string FifthPet { get; set; }
+
     }
 }
