@@ -49,5 +49,8 @@ namespace Models
 
         [JsonProperty("thirdPet")]
         public string ThirdPet { get; set; }
+
+        public string FourthPet { get; set; }
+
     }
 }
