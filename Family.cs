@@ -50,6 +50,7 @@ namespace Models
         [JsonProperty("thirdPet")]
         public string ThirdPet { get; set; }
 
+        [JsonProperty("fourthPet")]
         public string FourthPet { get; set; }
 
         public string FifthPet { get; set; }
