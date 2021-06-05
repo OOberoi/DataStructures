@@ -13,10 +13,10 @@ namespace Arrays
             return users;
         }
 
-        public static string GetUserName()
+        public static string GetUserName(string userName)
         {
             var users = new string[] {"Obi", "Sunita", "Sia", "Arya", "Krishan", "Kamlesh"};
-            string retVal = users.Where(u => u.Contains("Obi")).FirstOrDefault();
+            string retVal = users.Where(u => u.Contains(userName)).FirstOrDefault();
             return retVal;
         }
 
