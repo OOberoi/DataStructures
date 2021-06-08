@@ -14,7 +14,7 @@ namespace InterviewQuestions
         //top-level feature can be added by removing static void Main method completely!
         {
             // Tuple example
-            var (_, _, _, pop1, _, pop2) = TupleSample.QueryCityDataForYears("New York City", 1960, 2010);
+            var (_, _, _, pop1, _, pop2) = TupleSample.QueryCityDataForYears("New York City", 468.48, 1960, 2010);
             Console.WriteLine($"Population change, 1960 to 2010: {pop2 - pop1:N0}");
             Console.ReadLine();
 

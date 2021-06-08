@@ -8,12 +8,12 @@ namespace Arrays
 {
     public static class TupleSample
     {
-        public static (string, double, int, int, int, int) QueryCityDataForYears(string name, int year1, int year2)
+        public static (string, double, int, int, int, int) QueryCityDataForYears(string name, double area, int year1, int year2)
         {
             int population1 = 0, population2 = 0;
-            double area = 0;
+            //area = 0;
 
-            if (name == "New York City")
+            if (name == "New York")
             {
                 area = 468.48;
                 if (year1 is 1960)
