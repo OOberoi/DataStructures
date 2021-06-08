@@ -149,7 +149,7 @@ namespace InterviewQuestions
             // Ends here
 
             // Starts here 
-            var myList = Linq.GetUserNames();
+            var myList = Linq.GetUserNames("Sunita);
 
             foreach (var item in myList)
             {

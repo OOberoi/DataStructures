@@ -7,7 +7,7 @@ namespace Arrays
 {
     public class Linq
     {
-        public static IList<string> GetUserNames()
+        public static IList<string> GetUserNames(string userName)
         {
             var users = new string[] {"Obi", "Sunita", "Sia", "Arya", "Krishan", "Kamlesh"};            
             return users;
