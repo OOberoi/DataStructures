@@ -13,16 +13,16 @@ namespace Arrays
             int population1 = 0, population2 = 0;
             //area = 0;
 
-            if (name == "New York")
+            if (name == "Toronto")
             {
                 area = 468.48;
                 if (year1 is 1960)
                 {
-                    population1 = 7781984;
+                    population1 = 2781984;
                 }
                 if (year2 is 2010)
                 {
-                    population2 = 8175133;
+                    population2 = 5175133;
                 }
                 return (name, area, year1, population1, year2, population2);
             }
