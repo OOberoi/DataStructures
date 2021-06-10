@@ -108,7 +108,8 @@ namespace InterviewQuestions
                 new Students() { StudentID = 6, StudentName = "Obi Oberoi" , Age = 45, Gender = 'M'},
                 new Students() { StudentID = 7, StudentName= "Arya Oberoi", Age = 14, Gender = 'M'},
                 new Students() { StudentID = 8, StudentName = "Gerard Webster", Age = 51, Gender = 'M'},
-                new Students() { StudentID = 9, StudentName = "Scott Hanselman", Age = 52, Gender = 'M' }
+                new Students() { StudentID = 9, StudentName = "Scott Hanselman", Age = 52, Gender = 'M' },
+                new Students() { StudentID = 10, StudentName = "Jesse Liberty", Age = 55, Gender = 'M' }
             };
 
             var stud = (from s in studentList
