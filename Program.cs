@@ -4,17 +4,37 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.IO;
+using static System.Console;
 
 namespace InterviewQuestions
 {
     class Program
-    {        
+    {            
         //will start using it more frequently!!!
         //this is pretty cool stuff. Just pulled the files from git on my surface
         static void Main(string[] args)
         //top-level feature can be added by removing static void Main method completely!
         {
-        // Tuple example
+
+            // C# 10 features - June 10, 2021
+            var person = new Person
+            {
+                FirstName = "Obi",
+                LastName = "Oberoi"
+            };
+            var otherPerson = person with { LastName = "Bond" };
+            WriteLine(person);
+            WriteLine(otherPerson);
+
+            var originalPerson = otherPerson with { LastName = "Chopra" };
+            WriteLine(originalPerson);
+            WriteLine($"Equals: {Equals(person, originalPerson)}");
+            WriteLine($"== operator: {person == originalPerson}");
+
+            // C# 10 features - end here
+
+
+            // Tuple example
             var (_, _, _, pop1, _, pop2) = TupleSample.QueryCityDataForYears("New York City", 468.48, 1960, 2010);
             Console.WriteLine($"Population change, 1960 to 2010: {pop2 - pop1:N0}");
             Console.ReadLine();
@@ -454,6 +474,12 @@ namespace InterviewQuestions
             //TomCat.MaxNoOfEvenNumbers();
 
         }
+
+
+        
+        
+
+
 
         public static void ChangeRefType(Pupil std2)
         {
