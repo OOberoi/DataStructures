@@ -1003,9 +1003,9 @@ namespace InterviewQuestions
 
     record Person
     {
-        public string FirstName { get; set; }
-        public string LastName { get; set; }
-
+        public string FirstName { get; init; }
+        public string LastName { get; init; }
+        
         public void WritToFile(string filePath)
             => File.WriteAllText(filePath, ToString());
     }
