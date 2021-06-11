@@ -3,6 +3,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
+using System.IO;
 
 namespace InterviewQuestions
 {
@@ -13,7 +14,7 @@ namespace InterviewQuestions
         static void Main(string[] args)
         //top-level feature can be added by removing static void Main method completely!
         {
-            // Tuple example
+        // Tuple example
             var (_, _, _, pop1, _, pop2) = TupleSample.QueryCityDataForYears("New York City", 468.48, 1960, 2010);
             Console.WriteLine($"Population change, 1960 to 2010: {pop2 - pop1:N0}");
             Console.ReadLine();
@@ -151,7 +152,7 @@ namespace InterviewQuestions
             // Ends here
 
             // Starts here 
-            var myList = Linq.GetUserNames("Sunita);
+            var myList = Linq.GetUserNames("Sunita");
 
             foreach (var item in myList)
             {
@@ -972,5 +973,14 @@ namespace InterviewQuestions
     public class Pupil
     {
         public string Name { get; set; }
+    }
+
+    record Person
+    {
+        public string FirstName { get; set; }
+        public string LastName { get; set; }
+
+        public void WritToFile(string filePath)
+            => File.WriteAllText(filePath, ToString());
     }
 }    
