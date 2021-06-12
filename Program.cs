@@ -17,19 +17,19 @@ namespace InterviewQuestions
         {
 
             // C# 10 features - June 10, 2021
-            var person = new Person
+            var individual = new Individual
             {
                 FirstName = "Obi",
                 LastName = "Oberoi"
             };
-            var otherPerson = person with { LastName = "Bond" };
-            WriteLine(person);
-            WriteLine(otherPerson);
+            var otherIndividual = individual with { LastName = "Bond" };
+            WriteLine(individual);
+            WriteLine(otherIndividual);
 
-            var originalPerson = otherPerson with { LastName = "Chopra" };
-            WriteLine(originalPerson);
-            WriteLine($"Equals: {Equals(person, originalPerson)}");
-            WriteLine($"== operator: {person == originalPerson}");
+            var originalIndividual = otherIndividual with { LastName = "Chopra" };
+            WriteLine(originalIndividual);
+            WriteLine($"Equals: {Equals(individual, originalIndividual)}");
+            WriteLine($"== operator: {individual == originalIndividual}");
 
             // C# 10 features - end here
 
@@ -1001,7 +1001,7 @@ namespace InterviewQuestions
         public string Name { get; set; }
     }
 
-    record Person
+    record Individual
     {
         public string FirstName { get; init; }
         public string LastName { get; init; }
