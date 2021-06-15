@@ -70,6 +70,9 @@ namespace InterviewQuestions
             p5 = new(25, "Krishan", "Oberoi", 80, 'M');
             list.Add(p5);
 
+            Person p6 = new(24, "Kamlesh", "Oberoi", 70, 'F');
+            list.Add(p6);
+
             foreach (var item in list)
             {
                 Console.WriteLine($"The Id is: {item.Id}");
@@ -100,7 +103,7 @@ namespace InterviewQuestions
                     >= 30 and < 35 => "Warm",
                     >= 35 and < 42  => "Balmy" ,
                     >42 and <= 45 => "Hot",                                        
-                    _ => "This better be Mars!!!"
+                    _ => "This better be Mars  or something!!!"
                 };
                 return retval;
             }
@@ -130,7 +133,8 @@ namespace InterviewQuestions
                 new Students() { StudentID = 7, StudentName= "Arya Oberoi", Age = 14, Gender = 'M'},
                 new Students() { StudentID = 8, StudentName = "Gerard Webster", Age = 51, Gender = 'M'},
                 new Students() { StudentID = 9, StudentName = "Scott Hanselman", Age = 52, Gender = 'M' },
-                new Students() { StudentID = 10, StudentName = "Jesse Liberty", Age = 55, Gender = 'M' }
+                new Students() { StudentID = 10, StudentName = "Jesse Liberty", Age = 55, Gender = 'M' },
+                new Students() { StudentID = 10, StudentName = "Satya Nadela", Age = 53, Gender = 'M' }
             };
 
             var stud = (from s in studentList
