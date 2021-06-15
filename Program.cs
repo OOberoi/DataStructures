@@ -22,7 +22,7 @@ namespace InterviewQuestions
                 FirstName = "Obi",
                 LastName = "Oberoi"
             };
-            var otherIndividual = individual with { LastName = "Bond" };
+            var otherIndividual = individual with { FirstName  ="James", LastName = "Bond" };
             WriteLine(individual);
             WriteLine(otherIndividual);
 
