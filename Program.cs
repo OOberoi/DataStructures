@@ -73,6 +73,8 @@ namespace InterviewQuestions
             Person p6 = new(24, "Kamlesh", "Oberoi", 70, 'F');
             list.Add(p6);
 
+            Person p7 = new(25, "Rohit", "Oberoi", 45, 'M');
+
             foreach (var item in list)
             {
                 Console.WriteLine($"The Id is: {item.Id}");
