@@ -38,7 +38,12 @@ namespace InterviewQuestions
             int? b = (a == null) ? -1 : a;
             Console.WriteLine(b);
 
-
+            // OR you could use a coalesce operator 
+            int? x = null;
+            int? y;
+            y = x ?? -1;                
+            Console.WriteLine(y);
+            // NullCoalescing ends here
 
             // Tuple example
             var (_, _, _, pop1, _, pop2) = TupleSample.QueryCityDataForYears("New York City", 468.48, 1960, 2010);
