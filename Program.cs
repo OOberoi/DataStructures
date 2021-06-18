@@ -265,10 +265,10 @@ namespace InterviewQuestions
             Console.ReadLine();
 
             //Cyclic Rotation
-            int[] a = new int[] { 3, 8, 9, 7, 6 };
+            int[] a1 = new int[] { 3, 8, 9, 7, 6 };
             int k = 3;
 
-            int[] array1 = CyclicRotation.GetCyclicRotation(a, k);
+            int[] array1 = CyclicRotation.GetCyclicRotation(a1, k);
             foreach (var item in array1)
             {
                 Console.WriteLine(item);
