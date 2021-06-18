@@ -105,7 +105,7 @@ namespace InterviewQuestions
                     >= 30 and < 35 => "Warm",
                     >= 35 and < 42  => "Balmy" ,
                     >42 and <= 45 => "Hot",                                        
-                    _ => "This better be Mars  or something!!!"
+                    _ => "This better be Mars!!!"
                 };
                 return retval;
             }
@@ -123,7 +123,7 @@ namespace InterviewQuestions
             Console.ReadLine();
             //Ends here
 
-            //Anonymous Types 
+            //Anonymous Types - IList does not provide Sort even though it is higher in hierarchy
             IList<Students> studentList = new List<Students>()
             {
                 new Students() { StudentID = 1, StudentName = "John Oliver", Age = 18, Gender = 'M' },
