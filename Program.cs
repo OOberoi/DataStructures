@@ -33,6 +33,12 @@ namespace InterviewQuestions
 
             // C# 10 features - end here
 
+            // NullCoalescing operator
+            int? a = null;
+            int? b = (a == null) ? -1 : a;
+            Console.WriteLine(b);
+
+
 
             // Tuple example
             var (_, _, _, pop1, _, pop2) = TupleSample.QueryCityDataForYears("New York City", 468.48, 1960, 2010);
