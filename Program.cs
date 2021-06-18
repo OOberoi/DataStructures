@@ -22,7 +22,7 @@ namespace InterviewQuestions
                 FirstName = "Obi",
                 LastName = "Oberoi"
             };
-            var otherIndividual = individual with { FirstName  ="James", LastName = "Bond" };
+            var otherIndividual = individual with { FirstName  = "Barry", MiddleName = "Crompton", LastName = "Gibb" };
             WriteLine(individual);
             WriteLine(otherIndividual);
 
@@ -1010,6 +1010,7 @@ namespace InterviewQuestions
     record Individual
     {
         public string FirstName { get; init; }
+        public string? MiddleName { get; set; } 
         public string LastName { get; init; }
         
         public void WritToFile(string filePath)
