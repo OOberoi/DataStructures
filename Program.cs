@@ -41,7 +41,7 @@ namespace InterviewQuestions
             // OR you could use a coalesce operator 
             int? x = null;
             int? y;
-            y = x ?? -1;                
+            y = x ?? -5;                
             Console.WriteLine(y);
             // NullCoalescing ends here
 
