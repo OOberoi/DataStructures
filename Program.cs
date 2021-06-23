@@ -35,13 +35,13 @@ namespace InterviewQuestions
 
             // NullCoalescing operator
             int? a = null;
-            int? b = (a == null) ? -1 : a;
+            int? b = (a == null) ? -10 : a;
             Console.WriteLine(b);
 
             // OR you could use a coalesce operator 
             int? x = null;
             int? y;
-            y = x ?? -1;                
+            y = x ?? -5;                
             Console.WriteLine(y);
             // NullCoalescing ends here
 
