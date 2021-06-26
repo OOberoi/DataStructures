@@ -160,6 +160,8 @@ namespace InterviewQuestions
                         select s).ToArray();
             //OR
             var stud1 = studentList.Select(s => new { s.StudentID, s.StudentName, s.Age, s.Gender }).ToArray();
+            //OR
+            var stud2 = studentList.Select(s => new { s.StudentID, s.StudentName, s.Age, s.Gender }).ToList();
 
             foreach (var item in stud1)
             {
