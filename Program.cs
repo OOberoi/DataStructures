@@ -183,7 +183,7 @@ namespace InterviewQuestions
             Console.ReadLine();
 
             //Linq Class
-            //to write the stram to a csv file
+            //to write the stream to a csv file
             var fileName = $"{Guid.NewGuid()}.csv";
 
             //FindNumber Starts here
