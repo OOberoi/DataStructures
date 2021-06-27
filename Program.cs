@@ -163,7 +163,7 @@ namespace InterviewQuestions
             //OR
             var stud2 = studentList.Select(s => new { s.StudentID, s.StudentName, s.Age, s.Gender }).ToList();
 
-            foreach (var item in stud1)
+            foreach (var item in stud2)
             {
                 Console.WriteLine($"Student ID: {item.StudentID}");
                 Console.WriteLine($"Student Name: {item.StudentName}");
