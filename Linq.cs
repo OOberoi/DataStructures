@@ -13,6 +13,13 @@ namespace Arrays
             return users;
         }
 
+        public static List<string> GetSortedUserNames()
+        {
+            var users = new string[] { "Obi", "Sunita", "Sia", "Arya", "Krishan", "Kamlesh" };
+            Array.Sort(users);
+            return users.ToList();
+        }
+
         public static string GetUserName(string userName)
         {
             var users = new string[] {"Obi", "Sunita", "Sia", "Arya", "Krishan", "Kamlesh"};
