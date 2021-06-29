@@ -4,6 +4,7 @@ using System.Text;
 
 namespace Arrays
 {
+    //Not implemented
     public interface IProduct
     {
         string ProductID { get; set; }
