@@ -218,7 +218,7 @@ namespace InterviewQuestions
             Console.ReadLine();
 
             //--------------------New Method-------------------
-            string myName = Linq.GetUserName("Obi");
+            string myName = Linq.SearchUserName("Obi");
             Console.WriteLine($"My name is: {myName}");
             Console.ReadLine();
             //-----------------Ends here-----------------------
