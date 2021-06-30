@@ -220,9 +220,8 @@ namespace InterviewQuestions
             //--------------------New Method-------------------
             string userName = "Obi";
             string myName = Linq.SearchUserName(userName);
-
-
-            Console.WriteLine($"My name is: {myName}");
+            Console.WriteLine(myName == userName ? $"Match for {userName} found!" :
+                                $"No match found for {userName}");            
             Console.ReadLine();
             //-----------------Ends here-----------------------
 
