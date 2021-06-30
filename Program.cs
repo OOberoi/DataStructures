@@ -2,8 +2,8 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
-using System.Linq;
 using System.IO;
+using System.Linq;
 using static System.Console;
 
 namespace InterviewQuestions
@@ -218,7 +218,10 @@ namespace InterviewQuestions
             Console.ReadLine();
 
             //--------------------New Method-------------------
-            string myName = Linq.SearchUserName("Obi");
+            string userName = "Obi";
+            string myName = Linq.SearchUserName(userName);
+
+
             Console.WriteLine($"My name is: {myName}");
             Console.ReadLine();
             //-----------------Ends here-----------------------
