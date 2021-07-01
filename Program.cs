@@ -156,8 +156,8 @@ namespace InterviewQuestions
                 new Students() { StudentID = 11, StudentName = "Satya Nadela", Age = 53, Gender = 'M' }
             };
 
-            var stud = (from s in studentList
-                        select s).ToArray();
+            var stud = (from s1 in studentList
+                        select s1).ToArray();
             //OR
             var stud1 = studentList.Select(s => new { s.StudentID, s.StudentName, s.Age, s.Gender }).ToArray();
             //OR
@@ -236,10 +236,6 @@ namespace InterviewQuestions
             //Hare and Tortoise
             HareAndTortoise();
 
-
-
-
-
             //Collections
             Collections.AddGrades();
 
@@ -266,7 +262,7 @@ namespace InterviewQuestions
             Console.ReadLine();
 
             //Unpaired number
-            int[] pairsArr = new int[] { 9, 3, 9, 3, 5, 7, 9 }; //orfff
+            int[] pairsArr = new int[] { 9, 3, 9, 3, 5, 7, 9 }; 
             int retVal1 = Codility.FindUpaired(pairsArr);
             int retVal2 = Codility.FindUpairedLINQ(pairsArr);
             Console.WriteLine(retVal);
@@ -307,66 +303,66 @@ namespace InterviewQuestions
 
 
             //***********************Math class *****************************
-            //double avgVal = MathUtil.Average(2, 1);
+            double avgVal = MathUtil.Average(2, 1);
 
-            //Console.WriteLine(avgVal.ToString());
-            //Console.ReadLine();
-            //***********************Ends Here ***************************** 
+            Console.WriteLine(avgVal.ToString());
+            Console.ReadLine();
+            //***********************Ends Here * ****************************
 
-            //string retVal = Algorithms.ReverseString("How are you Obi!");
+            string retVal11 = Algorithms.ReverseString("How are you Obi!");
 
-            //char[] ValidChars = { 'k', 'a', 'y', 'a', 'k' };
-            //char[] InValidChars = { 'h', 'e', 'l', 'l', 'o' };
-            //bool IsTrue = MAndMFoods.IsStringValid(ValidChars);
-            //Console.WriteLine(IsTrue ? "The string is valid" : "The string is invalid");
-            //Console.ReadLine();
+            char[] ValidChars = { 'k', 'a', 'y', 'a', 'k' };
+            char[] InValidChars = { 'h', 'e', 'l', 'l', 'o' };
+            bool IsTrue = MAndMFoods.IsStringValid(ValidChars);
+            Console.WriteLine(IsTrue ? "The string is valid" : "The string is invalid");
+            Console.ReadLine();
 
-            //string[] arrayA = { "How", "are", "you" };
-            //string[] arrayB = { "How", "are", "you" };
-            //string[] arrayC = { "How", "are", "you", "Obi" };
+            string[] arrayA = { "How", "are", "you" };
+            string[] arrayB = { "How", "are", "you" };
+            string[] arrayC = { "How", "are", "you", "Obi" };
 
-            //bool IsTrue = MAndMFoods.CompareArrays(arrayA, arrayC);
-            //Console.WriteLine(IsTrue);
-            //Console.ReadLine();
+            bool IsItTrue = MAndMFoods.CompareArrays(arrayA, arrayC);
+            Console.WriteLine(IsTrue);
+            Console.ReadLine();
 
-            //bool IsTrue = MAndMFoods.CheckProjectDedpendency();
-            //Console.WriteLine(IsTrue? "The project has No Depedencies" : "The project has depedencies");
-            //Console.ReadLine();
+            bool IsTrue1 = MAndMFoods.CheckProjectDedpendency();
+            Console.WriteLine(IsTrue ? "The project has No Depedencies" : "The project has depedencies");
+            Console.ReadLine();
 
-            //UseObjectArray();
-            //UseArrayList();
-            //GetItemsInArrayList();
-            //PrintNamesForArya();
-            //ListOfObjects();
+            UseObjectArray();
+            UseArrayList();
+            GetItemsInArrayList();
+            PrintNamesForArya();
+            ListOfObjects();
 
-            //LinkdedList linkList = new LinkdedList();
-            //linkList.PrintAllNodes();
+            LinkdedList linkList = new LinkdedList();
+            linkList.PrintAllNodes();
 
-            //ReverseString();
-            //Intersect();
-            //Algorithms.TryIt();
+            ReverseString();
+            Intersect();
+            Algorithms.TryIt();
 
-            //Algorithms.Factorial();
+            Algorithms.Factorial();
 
-            //Stack objS = new Stack();
-            //List<string> myList = new List<string>
-            //{
-            //    "Obi Oberoi",
-            //    "Ken Cenerelli",
-            //    "Ehsan Eskandari",
-            //    "Arlan Nugara",
-            //    "Luca Gobi"
-            //};
+            Stack objS = new Stack();
+            List<string> myList1 = new List<string>
+            {
+                "Obi Oberoi",
+                "Ken Cenerelli",
+                "Ehsan Eskandari",
+                "Arlan Nugara",
+                "Luca Gobi"
+            };
 
-            //objS.Push(myList);
+            //objS.Push(myList1);
             //Rain objRain = new Rain("It is raining");
-            //Console.WriteLine("Message: {0}",objRain.Temp);
+            //Console.WriteLine("Message: {0}", objRain.Temp);
 
             //Rain oRain = new Rain();
 
             //AskTell();
 
-            //GradeBook book = new GradeBook();
+            //GradeBook book = new();
             //book.AddGrades(97);
             //book.AddGrades(89.5f);
             //book.AddGrades(75);
@@ -378,44 +374,44 @@ namespace InterviewQuestions
             //Console.WriteLine(stats.LowestGrade);
             //Console.ReadLine();
 
-            //Color c = Color.Red;
-            //TestPrint.PrintColor(c);
+            Color c = Color.Red;
+            TestPrint.PrintColor(c);
 
-            //A obj = new A();
-            //obj.Show();
+            A obj = new A();
+            obj.Show();
 
-            //obj = new B();
-            //obj.Show();
-            //Console.ReadLine();
+            obj = new B();
+            obj.Show();
+            Console.ReadLine();
 
-            //GetArrays();I caII
-            //GetNames();
-            //GetInput();
-            //ReadMyArray();
-            //SingleDimensionalArray();
+            GetArrays(); 
+            GetNames();
+            GetInput();
+            ReadMyArray();
+            SingleDimensionalArray();
 
             //**************************************************************
             //Question 1
 
-            //**************************************************************
-            //String s = Algorithms.FilterBrackets("(a+{b+c}-[d-e])[][]");
+            //* *************************************************************
+            String s = Algorithms.FilterBrackets("(a+{b+c}-[d-e])[][]");
             //String s = Algorithms.FilterBrackets("[ ( ] )");
             //String s = Algorithms.FilterErroneousChars("{ [ () {} ] }");
-            //while ((s.Length != 0) && (s.Contains("[]") || s.Contains("()") || s.Contains("{}")))
-            //{
-            //    s = s.Replace("[]", "");
-            //    s = s.Replace("()", "");
-            //    s = s.Replace("{}", "");
-            //}
+            while ((s.Length != 0) && (s.Contains("[]") || s.Contains("()") || s.Contains("{}")))
+            {
+                s = s.Replace("[]", "");
+                s = s.Replace("()", "");
+                s = s.Replace("{}", "");
+            }
 
-            //if (s.Length == 0)
-            //{
-            //    Console.WriteLine("Well Formed");
-            //}
-            //else
-            //{
-            //    Console.WriteLine("Not Well Formed");
-            //}
+            if (s.Length == 0)
+            {
+                Console.WriteLine("Well Formed");
+            }
+            else
+            {
+                Console.WriteLine("Not Well Formed");
+            }
 
             //******************************************************
             //question 2 part A
@@ -432,10 +428,10 @@ namespace InterviewQuestions
             //*******************************************************
 
             //**********************************************************************
-            //Algorithms.QuestionsThree();
-            //List<int> list1 = new List<int>();
-            //List<int> list2 = new List<int>();
-            //List<int> finalList = new List<int>();
+            Algorithms.QuestionsThree();
+            List<int> list1 = new List<int>();
+            List<int> list2 = new List<int>();
+            List<int> finalList = new List<int>();
 
             //int[] arr = { 7, 2, 1, 3 };
 
@@ -444,13 +440,13 @@ namespace InterviewQuestions
 
 
 
-            //list1 = Algorithms.FirstHalfList(arr);
+            list1 = Algorithms.FirstHalfList(arr);
             //func1.Start();
 
-            //list2 = Algorithms.SecondHalfList(arr);
+            list2 = Algorithms.SecondHalfList(arr);
             //func2.Start();
 
-            //finalList = Algorithms.FinalList(list1, list2);
+            finalList = Algorithms.FinalList(list1, list2);
             //*****************************************************************************
 
             //test utility functions
@@ -463,44 +459,44 @@ namespace InterviewQuestions
             //Constructor obj = new Constructor();
             //int myId = obj.ID;
             //string myName = obj.Name;
-            //Console.WriteLine(myId + ", " +  myName);
+            //Console.WriteLine(myId + ", " + myName);
             //Console.ReadLine();
 
-            //Algorithms.GetTemperatureCloseToZero();
-            //Algorithms.GetTempCloseToZeroSort(); //Obi to review this
-            //Console.WriteLine(Algorithms.IsPalindrome("Deleveled"));
-            //Console.ReadLine();
+            Algorithms.GetTemperatureCloseToZero();
+            Algorithms.GetTempCloseToZeroSort(); //Obi to review this
+            Console.WriteLine(Algorithms.IsPalindrome("Deleveled"));
+            Console.ReadLine();
 
-            //NumericInput input = new NumericInput();
-            //input.Add('1');
-            //input.Add('a');
-            //input.Add('0');
-            //Console.WriteLine(input.GetValue());
-            //Console.ReadLine();
+            NumericInput input = new NumericInput();
+            input.Add('1');
+            input.Add('a');
+            input.Add('0');
+            Console.WriteLine(input.GetValue());
+            Console.ReadLine();
 
-            //Client clt = new Client();
-            //clt.ClientName = "Obi Oberoi";
-            //clt.ClientAddress = "1 Microsoft Way, Redmond";
-            ////this is to demonstrate string interpolation feature in C3 6.0
-            //Console.WriteLine($"{clt.ClientName}, {clt.ClientAddress} is the information!");
-            //Console.ReadLine();
-            //MathUtils.Average(11, 1);
+            Client clt = new Client();
+            clt.ClientName = "Obi Oberoi";
+            clt.ClientAddress = "1 Microsoft Way, Redmond";
+            //this is to demonstrate string interpolation feature in C3 6.0
+            Console.WriteLine($"{clt.ClientName}, {clt.ClientAddress} is the information!");
+            Console.ReadLine();
+            MathUtils.Average(11, 1);
 
-            //string xml =
-            //"<?xml version=\"1.0\" encoding=\"UTF-8\"?>" +
-            //"<folder name=\"c\">" +
-            //    "<folder name=\"program files\">" +
-            //        "<folder name=\"uninstall information\" />" +
-            //    "</folder>" +
-            //    "<folder name=\"users\" />" +
-            //"</folder>";
-            //foreach (string name in XmlTest.FolderNames(xml, 'u'))
-            //    Console.WriteLine(name);
+            string xml =
+            "<?xml version=\"1.0\" encoding=\"UTF-8\"?>" +
+            "<folder name=\"c\">" +
+                "<folder name=\"program files\">" +
+                    "<folder name=\"uninstall information\" />" +
+                "</folder>" +
+                "<folder name=\"users\" />" +
+            "</folder>";
+            foreach (string name in XmlTest.FolderNames(xml, 'u'))
+                Console.WriteLine(name);
 
-            //MyStaticClass.MyMethod("Obi")
+            MyStaticClass.MyMethod("Obi");
 
-            //McKeenson.PrintNumAndAnimals();
-            //TomCat.MaxNoOfEvenNumbers();
+            McKeenson.PrintNumAndAnimals();
+            TomCat.MaxNoOfEvenNumbers();
 
         }
 
