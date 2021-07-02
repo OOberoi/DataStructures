@@ -58,7 +58,7 @@ namespace InterviewQuestions
             Console.WriteLine(Add(3,4));
 
             //Record type
-            List<Person> list = new List<Person>();
+            List<Person> list = new();
             var p1 = new Person(7,"Obi", "Oberoi", 44, 'M');
             p1.FirstName = "John";
             list.Add(p1);
