@@ -133,6 +133,11 @@ namespace InterviewQuestions
                 return x - y;
             }
 
+            static double Multiply (double x, double y)
+            {
+                return x * y;
+            }
+
 
             //Asynchronous Operation
             string myStrVal = Asynchronous.GetHttpClient();
