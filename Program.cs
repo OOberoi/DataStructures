@@ -138,6 +138,12 @@ namespace InterviewQuestions
                 return x * y;
             }
 
+            static double Divide (double x, double y)
+            {
+                return x / y;
+            }
+
+
 
             //Asynchronous Operation
             string myStrVal = Asynchronous.GetHttpClient();
