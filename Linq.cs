@@ -48,7 +48,7 @@ namespace Arrays
         public static List<int> GetSortedNumbers()
         {
             var numbers = new int[] { 1, 27, 7, 3, 29, 11, 23, 12 };
-
+            Array.Sort(numbers);
             return numbers.ToList();
         }
 
