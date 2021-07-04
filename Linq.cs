@@ -45,6 +45,7 @@ namespace Arrays
             return query;
         }
 
+        // Find the number using LINQ query
         public static bool FindNumber(int num)
         {
             var numbers = new int[] { 9, 1, 5, 8, 6, 7, 3, 2, 0, 4, 10, 13, 15, 16, 20 };
