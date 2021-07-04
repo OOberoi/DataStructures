@@ -16,7 +16,12 @@ namespace InterviewQuestions
 
         //top-level feature can be added by removing static void Main method completely!
         {
-            Linq.GetNumbersWithLINQ();
+            var nums = Linq.GetNumbersWithLINQ();
+            foreach (var item in nums)
+            {
+                Console.WriteLine(item);
+            }
+            Console.ReadLine();
 
             // C# 10 features - June 10, 2021
             var individual = new Individual

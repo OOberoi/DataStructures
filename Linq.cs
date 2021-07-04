@@ -39,7 +39,7 @@ namespace Arrays
 
         public static IEnumerable<int> GetNumbersWithLINQ()
         {
-            var numbers = new int[] { 1, 7, 11, 23, 27, 29, 12 };
+            var numbers = new int[] { 1, 7, 3, 29, 11, 23, 27, 12 };
             var query = numbers.OrderBy(num => num);
             return query;
         }
