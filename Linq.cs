@@ -45,6 +45,13 @@ namespace Arrays
             return query;
         }
 
+        public static List<int> GetSortedNumbers()
+        {
+            var numbers = new int[] { 1, 27, 7, 3, 29, 11, 23, 12 };
+
+            return numbers.ToList();
+        }
+
         // Find the number using LINQ query
         public static bool FindNumber(int num)
         {
