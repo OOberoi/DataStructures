@@ -13,8 +13,10 @@ namespace InterviewQuestions
         //will start using it more frequently!!!
         //this is pretty cool stuff. Just pulled the files from git on my surface
         static void Main(string[] args)
+
         //top-level feature can be added by removing static void Main method completely!
         {
+            Linq.GetNumbersWithLINQ();
 
             // C# 10 features - June 10, 2021
             var individual = new Individual
