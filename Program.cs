@@ -16,6 +16,14 @@ namespace InterviewQuestions
 
         //top-level feature can be added by removing static void Main method completely!
         {
+            var num1 = Linq.GetSortedNumbers();
+            foreach (var item in num1)
+            {
+                Console.WriteLine(item);
+            }
+            Console.ReadLine();
+
+
             var nums = Linq.GetNumbersWithLINQ();
             foreach (var item in nums)
             {
