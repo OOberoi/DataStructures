@@ -37,6 +37,7 @@ namespace Arrays
             return query;
         }
 
+        // Get number in an array in ascending order
         public static IEnumerable<int> GetNumbersWithLINQ()
         {
             var numbers = new int[] { 1, 7, 3, 29, 11, 23, 27, 12 };
