@@ -15,7 +15,7 @@ namespace Arrays
         }
         public GradeStatistics ComputeStatistics()
         {
-            GradeStatistics stats = new GradeStatistics();
+            GradeStatistics stats = new ();
 
             float sum = 0;
             foreach (float grade in grades)
