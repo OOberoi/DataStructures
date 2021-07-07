@@ -11,7 +11,7 @@ namespace Arrays
             var c = new int[a.Length];
             for (int i = 0; i < a.Length; i++)
             {
-                c[(i + b % a.Length)] = a[i];
+                c [(i + b % a.Length)] = a[i];
             }
             return c;
         }
