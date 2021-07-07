@@ -20,6 +20,7 @@ namespace Arrays
             {
                 if (dictionary.ContainsKey(i))
                 {
+                    Console.WriteLine($"Duplicate key found: {i}");
                     return true;
                 }
                 else
