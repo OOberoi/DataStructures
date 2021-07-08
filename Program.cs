@@ -16,6 +16,9 @@ namespace InterviewQuestions
 
         //top-level feature can be added by removing static void Main method completely!
         {
+            string myRetVal = Asynchronous.GetHttpClient();
+
+
             var num1 = Linq.GetSortedNumbers();
             foreach (var item in num1)
             {
