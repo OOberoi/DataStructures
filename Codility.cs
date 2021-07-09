@@ -67,9 +67,12 @@ namespace Arrays
         {
             //1,3,6,4,1,2 (for viewing only)
             // write your code in C# 6.0 with .NET 4.5 (Mono)
+            int prev = 0;
+
             var positives = A.Where(x => x > 0).Distinct().OrderBy(x => x).ToArray();
             if (positives.Count() == 0) return 1;
-            int prev = 0;
+
+          
             for (int i = 0; i < positives.Count(); i++)
             {
                 if (positives[i] != prev + 1)
