@@ -21,6 +21,8 @@ namespace Arrays
     {
         public string Name { get; set; }
         public int Doors { get; set; }
+        public string Model { get; set; }
+        public string Color { get; set; }
         public override string ToString()
         {
             return Name + Doors;
