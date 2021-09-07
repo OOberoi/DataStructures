@@ -14,16 +14,16 @@ namespace Arrays
         {
             HighestGrade = 0;
             LowestGrade = float.MaxValue;
-        }
+        }        
+    }
 
-        public class Car
+    public class Car
+    {
+        public string Name { get; set; }
+        public int Doors { get; set; }
+        public override string ToString()
         {
-            public string Name { get; set; }
-            public int Doors { get; set; }
-            public override string ToString()
-            {
-                return Name + Doors;
-            }
+            return Name + Doors;
         }
     }
 }
