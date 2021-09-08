@@ -40,4 +40,12 @@ namespace Arrays
             return Convert.ToSingle(Salary);
         }
     }
+
+    public class PartTimeEmployee : Employee
+    {
+        public override float CalculateEmployeeSalary()
+        {
+            return Convert.ToSingle(Hours * HourlyRate);
+        }
+    }
 }
