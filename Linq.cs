@@ -40,7 +40,7 @@ namespace Arrays
         // Get number in an array in ascending order
         public static IEnumerable<int> GetNumbersWithLINQ()
         {
-            var numbers = new int[] { 1, 27, 7, 3, 29, 11, 23, 12 };
+            var numbers = new int[] { 1, 27, 7, 3, 29, 11, 23, 12, 2, 15 };
             var query = numbers.OrderBy(num => num);
             return query;
         }
