@@ -57,8 +57,7 @@ namespace Arrays
         {
             var numbers = new int[] { 9, 1, 5, 8, 6, 7, 3, 2, 0, 4, 10, 13, 15, 16, 20 };
             int myVal = numbers.Where(n => n.Equals(num)).FirstOrDefault();
-
-            return myVal.Equals(num) ? true : false;            
+            return myVal.Equals(num);            
         }
     }
 }
