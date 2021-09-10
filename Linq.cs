@@ -41,7 +41,7 @@ namespace Arrays
         public static IEnumerable<int> GetNumbersWithLINQ()
         {
             var numbers = new int[] { 1, 27, 7, 3, 29, 11, 23, 12, 2, 15 };
-            var query = numbers.OrderBy(num => num);
+            var query = numbers.OrderBy(n => n);
             return query;
         }
 
