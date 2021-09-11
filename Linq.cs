@@ -30,7 +30,8 @@ namespace Arrays
         public static string SearchByPartialName(string name)
         {
             return name;
-            //var names = new string
+            var names = new string[] { "Obi", "Michael", "Mark", "Rachel", "Pam", "Suzanne", "Pranay" };
+           
         }
 
         public static IEnumerable<int> GetNumbers()
