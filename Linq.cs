@@ -27,11 +27,13 @@ namespace Arrays
             return retVal;
         }
 
-        public static string SearchByPartialName(string name)
-        {
-            return name;
+        public static string SearchByPartialName(string empName)
+        {            
             var names = new string[] { "Obi", "Michael", "Mark", "Rachel", "Pam", "Suzanne", "Pranay" };
-           
+            var retVal = from name in names
+                            where name.Contains(empName)
+                            select name;
+            return retVal.ToString();
         }
 
         public static IEnumerable<int> GetNumbers()
