@@ -27,6 +27,12 @@ namespace Arrays
             return retVal;
         }
 
+        public static string SearchByPartialName(string name)
+        {
+            return name;
+            //var names = new string
+        }
+
         public static IEnumerable<int> GetNumbers()
         {
             var numbers = new int[] { 9, 1, 5, 8, 6, 7, 3, 2, 0, 4 };
