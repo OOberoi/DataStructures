@@ -9,7 +9,7 @@ namespace Arrays
     {
         public static IList<string> GetUserNames(string userName)
         {
-            var users = new string[] {"Obi", "Sunita", "Sia", "Arya", "Krishan", "Kamlesh"};            
+            var users = new string[] { "Obi", "Sunita", "Sia", "Arya", "Krishan", "Kamlesh" };
             return users;
         }
 
@@ -22,17 +22,17 @@ namespace Arrays
 
         public static string SearchUserName(string userName)
         {
-            var users = new string[] {"Obi", "Sunita", "Sia", "Arya", "Krishan", "Kamlesh"};
+            var users = new string[] { "Obi", "Sunita", "Sia", "Arya", "Krishan", "Kamlesh" };
             string retVal = users.Where(u => u.Contains(userName)).FirstOrDefault();
             return retVal;
         }
 
         public static string SearchByPartialName(string empName)
-        {            
+        {
             var names = new string[] { "Obi", "Michael", "Mark", "Rachel", "Pam", "Suzanne", "Pranay" };
             var retVal = from name in names
-                            where name.Contains(empName)
-                            select name;
+                         where name.Contains(empName)
+                         select name;
             return retVal.ToString();
         }
 
@@ -66,7 +66,12 @@ namespace Arrays
         {
             var numbers = new int[] { 9, 1, 5, 8, 6, 7, 3, 2, 0, 4, 10, 13, 15, 16, 20 };
             int myVal = numbers.Where(n => n.Equals(num)).FirstOrDefault();
-            return myVal.Equals(num);            
+            return myVal.Equals(num);
         }
+    }
+
+    public class Student
+    {
+
     }
 }
