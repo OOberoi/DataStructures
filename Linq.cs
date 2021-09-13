@@ -13,6 +13,14 @@ namespace Arrays
             return users;
         }
 
+        public static String FindStudent()
+        {
+            Student[] studArray = { 
+                new Student() { ID = 1, StudentName = "Rowan Atkins", Age = 20, Gender = 'M' },
+                new Student() {ID = 2, StudentName = "Arya Oberoi", Age = 14, Gender = 'M' }                
+            };
+        }
+
         public static List<string> GetSortedUserNames()
         {
             var users = new string[] { "Obi", "Sunita", "Sia", "Arya", "Krishan", "Kamlesh" };
