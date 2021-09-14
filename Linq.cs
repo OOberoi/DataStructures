@@ -13,15 +13,14 @@ namespace Arrays
             return users;
         }
 
-        public static List<Student> FindStudent()
+        public static List<Student> FindStudent(string name)
         {
             Student[] studArray = { 
                 new Student() { ID = 1, StudentName = "Rowan Atkins", Age = 20, Gender = 'M' },
                 new Student() {ID = 2, StudentName = "Arya Oberoi", Age = 14, Gender = 'M' }                
             };
 
-            //Student[] students = new Student[5];
-
+            var retVal = studArray.Where(s => s.StudentName.Contains(name)).FirstOrDefault();
             return studArray.ToList();
         }
 
