@@ -21,6 +21,7 @@ namespace Arrays
     public class Address
     {
         public int AddressId { get; set; }
-
+        public int StreetNumber { get; set; }
+        
     }
 }
