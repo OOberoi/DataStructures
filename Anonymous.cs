@@ -17,4 +17,9 @@ namespace Arrays
         public string LastName { get; set; }
 
     }
+
+    public class Address
+    { 
+
+    }
 }
