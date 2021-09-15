@@ -6,7 +6,12 @@ using System.Threading.Tasks;
 
 namespace Arrays
 {
-    class Anonymous
+    public class Anonymous
     {
+    }
+
+    public class Student
+    { 
+        
     }
 }
