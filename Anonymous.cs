@@ -22,6 +22,6 @@ namespace Arrays
     {
         public int AddressId { get; set; }
         public int StreetNumber { get; set; }
-        
+        public string StreetName { get; set; }
     }
 }
