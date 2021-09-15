@@ -10,8 +10,10 @@ namespace Arrays
     {
     }
 
-    public class Student
-    { 
-        
+    public class Pupil
+    {
+        public int ID { get; set; }
+
+       
     }
 }
