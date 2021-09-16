@@ -13,8 +13,9 @@ namespace Arrays
             IList<Pupil> pupList = new List<Pupil>() { 
                 new Pupil() { ID = 1, FirstName = "Obi", LastName = "Oberoi"},
                 new Pupil() { ID = 2, FirstName = "Scott", LastName = "Hanselman" },
-
-
+                new Pupil() { ID = 3, FirstName = "Scott", LastName = "Hunter" },
+                new Pupil() { ID = 4, FirstName = "Dan", LastName = "Roth" },
+                new Pupil() { ID = 5, FirstName = "Jessie", LastName = "Liberty" },
             };
         }
     }
