@@ -74,6 +74,8 @@ namespace InterviewQuestions
 
             //call the Add program to check the inline parameters value as part of the new features in the latest release
             Console.WriteLine(Add(3,4));
+            Console.WriteLine(Multiply(5,7));
+            Console.WriteLine(Divide(20, 5));
 
             //Record type
             List<Person> list = new();
@@ -1058,7 +1060,7 @@ namespace InterviewQuestions
     record Individual
     {
         public string FirstName { get; init; }
-        public string? MiddleName { get; set; } 
+        public string MiddleName { get; set; } 
         public string LastName { get; init; }
         
         public void WritToFile(string filePath)
