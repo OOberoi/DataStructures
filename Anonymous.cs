@@ -17,6 +17,15 @@ namespace Arrays
                 new Pupil() { ID = 4, FirstName = "Dan", LastName = "Roth" },
                 new Pupil() { ID = 5, FirstName = "Jessie", LastName = "Liberty" },
             };
+
+            var pups = pupList.ToList();
+            foreach (var item in pups)
+            {
+                Console.WriteLine(item.ID);
+                Console.WriteLine(item.FirstName);
+                Console.WriteLine(item.LastName);
+            }
+            Console.ReadLine();
         }
     }
 
