@@ -10,9 +10,11 @@ namespace Arrays
     {
         private static void GetStudentDetails()
         {
-            IList<Pupil> pupList = new List<Pupil>();
-            {
-                _ = new Pupil() { ID = 1, FirstName = "Obi", LastName = "Oberoi" };
+            IList<Pupil> pupList = new List<Pupil>() { 
+                new Pupil() { ID = 1, FirstName = "Obi", LastName = "Oberoi"},
+                new Pupil() { ID = 2, FirstName = "Scott", LastName = "Hanselman" },
+
+
             };
         }
     }
