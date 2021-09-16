@@ -9,8 +9,11 @@ namespace Arrays
     public static class Anonymous
     {
         private static void GetStudentDetails()
-        { 
-            
+        {
+            IList<Pupil> pupList = new List<Pupil>();
+            {
+                _ = new Pupil() { ID = 1, FirstName = "Obi", LastName = "Oberoi" };
+            };
         }
     }
 
