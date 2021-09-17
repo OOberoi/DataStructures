@@ -8,7 +8,7 @@ namespace Arrays
 {
     public static class Anonymous
     {
-        private static void GetStudentDetails(string lastName)
+        private static List<Pupil> GetStudentDetails(string lastName)
         {
             IList<Pupil> pupList = new List<Pupil>() { 
                 new Pupil() { ID = 1, FirstName = "Obi", LastName = "Oberoi"},
@@ -19,13 +19,16 @@ namespace Arrays
             };
 
             var pups = pupList.Where(p => p.LastName.Equals(lastName)).ToList();
-            foreach (var item in pups)
-            {
-                Console.WriteLine(item.ID);
-                Console.WriteLine(item.FirstName);
-                Console.WriteLine(item.LastName);
-            }
-            Console.ReadLine();
+
+            return pups;
+
+            //foreach (var item in pups)
+            //{
+            //    Console.WriteLine(item.ID);
+            //    Console.WriteLine(item.FirstName);
+            //    Console.WriteLine(item.LastName);
+            //}
+            //Console.ReadLine();
         }
     }
 
