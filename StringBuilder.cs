@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace Arrays
 {
-    class StringBuilder
+    public class StringBuilder
     {
+
     }
 }
