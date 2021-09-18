@@ -11,7 +11,7 @@ namespace Arrays
     {
         public static string BuildAString()
         {
-            StringBuilder sb = new StringBuilder();
+            StringBuilder sb = new StringBuilder("MaxCapacity", 100);
             sb.Append("Hello Obi!");
             sb.Append("This is fun!");
             return sb.ToString();
