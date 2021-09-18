@@ -19,6 +19,9 @@ namespace Arrays
             //insert a text within a string at a specified location
             sb.Insert(4, " super");
 
+            //replace fun with awesome
+            sb.Replace("fun", "awesome");
+
             //to retrieve what's in the string so far, do the following:
             var retVal = sb.ToString();
 
