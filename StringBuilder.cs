@@ -17,7 +17,7 @@ namespace Arrays
 
             for (int i = 0; i < sb.Length; i++)
             {
-                Console.WriteLine();
+                Console.WriteLine(sb[i]);
             }
             return sb.ToString();
         }
