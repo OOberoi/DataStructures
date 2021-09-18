@@ -6,11 +6,14 @@ using System.Threading.Tasks;
 
 namespace Arrays
 {
-    public class StringBuilder
-    {
-        public string BuildAString()
-        { 
+    public static class StringBuilderNew
 
+    {
+        public static string BuildAString()
+        {
+            StringBuilder sb = new StringBuilder();
+            sb.Append("Hello Obi!");
+            return sb.ToString();
         }
     }
 }
