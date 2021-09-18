@@ -16,6 +16,9 @@ namespace Arrays
             sb.AppendLine();
             sb.Append("This is fun!");
 
+            //insert a text within a string at a specified location
+            sb.Insert(4, " super");
+
             //to retrieve what's in the string so far, do the following:
             var retVal = sb.ToString();
 
