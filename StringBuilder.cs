@@ -16,11 +16,14 @@ namespace Arrays
             sb.AppendLine();
             sb.Append("This is fun!");
 
+            //to retrieve what's in the string so far, do the following:
+            var retVal = sb.ToString();
+
             for (int i = 0; i < sb.Length; i++)
             {
                 Console.WriteLine(sb[i]);
             }
-            return sb.ToString();
+            return retVal;
         }
     }
 }
