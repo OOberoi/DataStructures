@@ -13,6 +13,7 @@ namespace Arrays
         {
             StringBuilder sb = new StringBuilder("MaxCapacity", 100);
             sb.Append("Hello Obi!");
+            sb.AppendLine();
             sb.Append("This is fun!");
 
             for (int i = 0; i < sb.Length; i++)
