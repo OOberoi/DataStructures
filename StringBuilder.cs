@@ -13,6 +13,7 @@ namespace Arrays
         {
             StringBuilder sb = new StringBuilder();
             sb.Append("Hello Obi!");
+            sb.Append("This is fun!");
             return sb.ToString();
         }
     }
