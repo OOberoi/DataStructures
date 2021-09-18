@@ -8,6 +8,9 @@ namespace Arrays
 {
     public class StringBuilder
     {
+        public string BuildAString()
+        { 
 
+        }
     }
 }
