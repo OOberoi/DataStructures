@@ -22,6 +22,9 @@ namespace Arrays
             //replace fun with awesome
             sb.Replace("fun", "awesome");
 
+            // add a $$ value to sb
+
+
             //to retrieve what's in the string so far, do the following:
             var retVal = sb.ToString();
 
