@@ -22,7 +22,7 @@ namespace Arrays
             //replace fun with awesome
             sb.Replace("fun", "awesome");
 
-            // add a $$ value to sb
+            // add a $$ value to sb and format it to currency
             double carValue = 114000;
             sb.AppendFormat("{0:C } ", carValue);
 
