@@ -23,7 +23,8 @@ namespace Arrays
             sb.Replace("fun", "awesome");
 
             // add a $$ value to sb
-
+            double carValue = 114000;
+            sb.AppendFormat("{0:C } ", carValue);
 
             //to retrieve what's in the string so far, do the following:
             var retVal = sb.ToString();
