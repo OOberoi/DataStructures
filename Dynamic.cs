@@ -6,8 +6,12 @@ using System.Threading.Tasks;
 
 namespace Arrays
 {
-    public class DynamicNew
+    public static class DynamicNew
     {
+        private static void EvalDynamicValues()
+        { 
+        
+        }
 
     }
 }
