@@ -14,6 +14,8 @@ namespace Arrays
             dynamic myStr = "Hello Obi";
             dynamic mySalary = "100000.00";
             dynamic myFlag = true;
+
+            Console.WriteLine($"The type of {myVal} is: {myVal.GetType()}");
         }
 
     }
