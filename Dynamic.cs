@@ -18,6 +18,7 @@ namespace Arrays
             Console.WriteLine($"The type of {myVal} is: {myVal.GetType()}");
             Console.WriteLine($"The type of {myStr} is: {myStr.GetType()}");
             Console.WriteLine($"The type of {mySalary} is: {mySalary.GetType()}");
+            Console.WriteLine($"The type of {myFlag} is: {myFlag.GetType()}");
         }
 
     }
