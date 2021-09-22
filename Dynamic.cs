@@ -16,6 +16,8 @@ namespace Arrays
             dynamic myFlag = true;
 
             Console.WriteLine($"The type of {myVal} is: {myVal.GetType()}");
+            Console.WriteLine($"The type of {myStr} is: {myStr.GetType()}");
+
         }
 
     }
