@@ -14,6 +14,7 @@ namespace Arrays
             dynamic myStr = "Hello Obi";
             dynamic mySalary = "100000.00";
             dynamic myFlag = true;
+            dynamic currDate = DateTime.Now;
 
             Console.WriteLine($"The type of {myVal} is: {myVal.GetType()}");
             Console.WriteLine($"The type of {myStr} is: {myStr.GetType()}");
