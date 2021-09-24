@@ -23,5 +23,9 @@ namespace Arrays
             Console.WriteLine($"The type of {currDate} is: {currDate.GetType()}");
         }
 
+        private static void DynamicConversions()
+        { 
+        }
+
     }
 }
