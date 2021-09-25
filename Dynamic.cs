@@ -28,6 +28,7 @@ namespace Arrays
             dynamic myval = 100;
             int i = myval;
             Console.WriteLine($"The value is: {i}");
+            Console.ReadLine();
         }
 
     }
