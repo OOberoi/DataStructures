@@ -16,6 +16,7 @@ namespace Arrays
             dynamic myFlag = true;
             dynamic currDate = DateTime.Now;
             dynamic myFloat = 10.7f;
+            dynamic myChar = 's';
 
             Console.WriteLine($"The type of {myVal} is: {myVal.GetType()}");
             Console.WriteLine($"The type of {myStr} is: {myStr.GetType()}");
@@ -23,6 +24,7 @@ namespace Arrays
             Console.WriteLine($"The type of {myFlag} is: {myFlag.GetType()}");
             Console.WriteLine($"The type of {currDate} is: {currDate.GetType()}");
             Console.WriteLine($"The type of {myFloat} is: {myFloat.GetType()}");
+            Console.WriteLine($"The type of {myChar} is: {myChar.GetType()}");
         }
 
         private static void DynamicConversions()
