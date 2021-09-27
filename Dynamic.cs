@@ -8,6 +8,12 @@ namespace Arrays
 {
     public static class DynamicNew
     {
+        enum AzureCourses
+        { 
+            AZ900,
+            AZDeveloper
+        }
+
         private static void EvalDynamicValues()
         {
             dynamic myVal = 100;
