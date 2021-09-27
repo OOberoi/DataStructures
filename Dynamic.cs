@@ -13,7 +13,8 @@ namespace Arrays
             AZ900,
             AZDeveloper,
             AZDataScientist,
-            AZDevOps
+            AZDevOps,
+            AZDatabaseAdmin
         }
 
         private static void EvalDynamicValues()
