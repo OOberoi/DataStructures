@@ -11,7 +11,8 @@ namespace Arrays
         enum AzureCourses
         { 
             AZ900,
-            AZDeveloper
+            AZDeveloper,
+            AZDataScientist
         }
 
         private static void EvalDynamicValues()
