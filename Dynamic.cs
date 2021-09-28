@@ -14,7 +14,8 @@ namespace Arrays
             AZDeveloper = 3 ,
             AZDataScientist = 7,
             AZDevOps = 10,
-            AZDatabaseAdmin = 10
+            AZDatabaseAdmin = 10,
+            AZIOT = 11
         }
 
         private static void EvalDynamicValues()
