@@ -10,8 +10,8 @@ namespace Arrays
     {
         enum AzureCourses
         { 
-            AZ900,
-            AZDeveloper,
+            AZ900 = 1,
+            AZDeveloper = 3 ,
             AZDataScientist,
             AZDevOps,
             AZDatabaseAdmin
