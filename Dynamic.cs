@@ -12,8 +12,8 @@ namespace Arrays
         { 
             AZ900 = 1,
             AZDeveloper = 3 ,
-            AZDataScientist,
-            AZDevOps,
+            AZDataScientist = 7,
+            AZDevOps = 10,
             AZDatabaseAdmin
         }
 
