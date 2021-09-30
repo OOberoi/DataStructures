@@ -8,5 +8,7 @@ namespace Arrays
 {
     interface IFile
     {
+        void ReadFile();
+        
     }
 }
