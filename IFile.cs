@@ -9,6 +9,6 @@ namespace Arrays
     interface IFile
     {
         void ReadFile();
-        
+        void WriteFile(string fileName);
     }
 }
