@@ -21,7 +21,7 @@ namespace Arrays
 
         void IFile.WriteFile(string fileName)
         {
-            throw new NotImplementedException();
+            Console.WriteLine($"Read file {fileName}");
         }
     }
 }
