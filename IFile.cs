@@ -16,7 +16,7 @@ namespace Arrays
     {
         void IFile.ReadFile()
         {
-            throw new NotImplementedException();
+            Console.WriteLine("Read File");
         }
 
         void IFile.WriteFile(string fileName)
