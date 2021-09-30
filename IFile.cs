@@ -11,4 +11,17 @@ namespace Arrays
         void ReadFile();
         void WriteFile(string fileName);
     }
+
+    public class FileInfo : IFile
+    {
+        void IFile.ReadFile()
+        {
+            throw new NotImplementedException();
+        }
+
+        void IFile.WriteFile(string fileName)
+        {
+            throw new NotImplementedException();
+        }
+    }
 }
