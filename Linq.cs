@@ -15,13 +15,21 @@ namespace Arrays
 
         public static List<Student> FindStudent(string name)
         {
-            Student[] studArray = { 
+            try
+            {
+                Student[] studArray = {
                 new Student() { ID = 1, StudentName = "Rowan Atkins", Age = 20, Gender = 'M' },
-                new Student() {ID = 2, StudentName = "Arya Oberoi", Age = 14, Gender = 'M' }                
-            };
+                new Student() {ID = 2, StudentName = "Arya Oberoi", Age = 14, Gender = 'M' }
+                };
 
-            var retVal = studArray.Where(s => s.StudentName.Contains(name)).FirstOrDefault();
-            return studArray.ToList();
+                var retVal = studArray.Where(s => s.StudentName.Contains(name)).FirstOrDefault();
+                return studArray.ToList();
+            }
+            catch (Exception ex)
+            {
+                ex.Message.ToString();
+                return null;
+            }
         }
 
         public static List<string> GetSortedUserNames()
