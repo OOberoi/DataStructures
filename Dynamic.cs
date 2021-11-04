@@ -42,7 +42,9 @@ namespace Arrays
         {
             dynamic myval = 100;
             int i = myval;
-            Console.WriteLine($"The value is: {i}");
+            dynamic myStr = "Obi Oberoi";
+            string myName = myStr;
+            Console.WriteLine($"The value is: {i} + {myStr}");
             Console.ReadLine();
         }
 
