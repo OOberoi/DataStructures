@@ -33,14 +33,14 @@ namespace Arrays
         //}
     }
 
-    public class Student
-    {
-        static Student()
-        {
-            // initialize static members only.
-        }
-        // other methods here.
-    }
+    //public class Student
+    //{
+    //    static Student()
+    //    {
+    //        // initialize static members only.
+    //    }
+    //    // other methods here.
+    //}
     // Example2
     public class MyStaticClass
     {
